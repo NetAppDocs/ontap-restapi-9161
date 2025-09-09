@@ -1,5 +1,5 @@
 settings:
-  name: ONTAP REST API reference 
+  name: REST API reference 
   lipi_enabled: false
   github_edit: false
   internal:
@@ -16,6 +16,8 @@ settings:
   - version-number: "9.16.1"
     url: /ontap-restapi-9161
   # Additional Releases
+  - version-number: "9.17.1"
+    url: /ontap-restapi
   - version-number: "9.15.1"
     url: /ontap-restapi-9151
   - version-number: "9.14.1"
@@ -48,5 +50,6 @@ sidebar:
 product-family: 
   name: ONTAP
   repo: ontap-family
+
 
 
