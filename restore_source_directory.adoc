@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'restore_source_directory.html'
+summary: 'Restore source directory'
+---
+
+= Restore source directory
+
+
+
+== Overview
+
+You can use this API to restore a directory from a volume snapshot without having to use data copy. The directory in the snapshot contains sub-directories and files.
+
+When a directory from a volume snapshot is restored, all the directory entries (dentries) in the source should remain as they are (except for the junction path inodes). The dentries in the restored directory contain new inodes which are in the AFS (Active File System).
+
+The newly created inodes in the AFS have the same attributes as those in the source snapshot.
+
+== Directory restore API
+
+The following API is used to perform the following operations:
+
+&ndash; POST      /api/storage/directory-restore
+
+

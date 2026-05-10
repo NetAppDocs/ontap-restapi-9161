@@ -1,0 +1,347 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'post-storage-directory-restore.html'
+summary: 'Restore the source directory from the volume snapshot on the destination directory'
+---
+
+= Restore the source directory from the volume snapshot on the destination directory
+
+[.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/directory-restore`#
+
+*Introduced In:* 9.15
+
+Restores the source directory from the volume snapshot on the destination directory.
+
+== Required Properties
+
+* `vserver`
+* `volume.name`
+* `snapshot.name`
+* `source_path`
+* `restore_path`
+
+== Related ONTAP commands
+
+* `volume snapshot directory-restore start`
+
+----
+
+# The API:
+/api/storage/directory-restore
+
+# The call:
+curl -X POST "https://<mgmt_ip>/api/storage/directory-restore" -H "accept: application/hal+json" -d '{"svm":"vs1", "volume": "vol1", "snapshot": "sp1", "path": "/aaaa", "restore_path": "/bbbb"}'
+
+# The response:
+{
+"job": {
+  "uuid": "23b5ff3a-4743-11ee-a08d-005056bb9d00",
+  "_links": {
+    "self": {
+      "href": "/api/cluster/jobs/23b5ff3a-4743-11ee-a08d-005056bb9d00"
+    }
+  }
+}
+}
+----
+
+
+== Parameters
+
+[cols=5*,options=header]
+|===
+
+|Name
+|Type
+|In
+|Required
+|Description
+
+|return_timeout
+|integer
+|query
+|False
+a|The number of seconds to allow the call to execute before returning. When doing a POST, PATCH, or DELETE operation on a single record, the default is 0 seconds.  This means that if an asynchronous operation is started, the server immediately returns HTTP code 202 (Accepted) along with a link to the job.  If a non-zero value is specified for POST, PATCH, or DELETE operations, ONTAP waits that length of time to see if the job completes so it can return something other than 202.
+
+* Default value: 0
+* Max value: 120
+* Min value: 0
+
+
+|return_records
+|boolean
+|query
+|False
+a|The default is false.  If set to true, the records are returned.
+
+* Default value:
+
+|===
+
+== Request Body
+
+                
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|path
+|string
+a|Source from where the directory is restored.
+
+
+|restore_path
+|string
+a|Destination directory where the new directory tree is created.
+
+
+|snapshot
+|string
+a|Name of the volume snapshot from which the directory is restored.
+
+
+|volume
+|string
+a|Name of the volume from which the snapshot is used for directory restore.
+
+
+|vserver
+|string
+a|Name of the SVM.
+
+
+|===
+
+
+.Example request
+[%collapsible%closed]
+====
+[source,json,subs=+macros]
+{
+  "path": "src_file1 or dir1/src_file2 or ./.snapshot/snap1/src_file3",
+  "restore_path": "dest_file1 or dir1/dest_file2",
+  "snapshot": "string",
+  "volume": "string",
+  "vserver": "string"
+}
+====
+
+== Response
+
+```
+Status: 202, Accepted
+```
+
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|path
+|string
+a|Source from where the directory is restored.
+
+
+|restore_path
+|string
+a|Destination directory where the new directory tree is created.
+
+
+|snapshot
+|string
+a|Name of the volume snapshot from which the directory is restored.
+
+
+|volume
+|string
+a|Name of the volume from which the snapshot is used for directory restore.
+
+
+|vserver
+|string
+a|Name of the SVM.
+
+
+|===
+
+
+.Example response
+[%collapsible%closed]
+====
+[source,json,subs=+macros]
+{
+  "path": "src_file1 or dir1/src_file2 or ./.snapshot/snap1/src_file3",
+  "restore_path": "dest_file1 or dir1/dest_file2",
+  "snapshot": "string",
+  "volume": "string",
+  "vserver": "string"
+}
+====
+
+=== Headers
+
+[cols=3*,options=header]
+|===
+//header
+|Name
+|Description
+|Type
+//end header
+
+//start row
+|Location
+|Useful for tracking the resource location
+|string
+//end row
+//end table
+|=== 
+
+== Response
+
+```
+Status: 201, Created
+```
+
+== Error
+
+```
+Status: Default
+```
+
+ONTAP Error Response Codes
+
+|===
+| Error Code | Description
+
+| 6488112
+| Directory restore can only be started on a directory.
+
+| 6488113
+| Directory restore requires an effective cluster version of 9.15.1 or later.
+
+| 6488114
+| Directory restore is not supported on FlexGroup constituent volumes.
+
+| 6488115
+| Internal error. Failed to get node information for the volume with DSID "volume.dsid".
+
+| 6488116
+| Directory restore is not supported on root directory. Use the "volume snapshot restore" command instead.
+|===
+
+Also see the table of common errors in the link:getting_started_with_the_ontap_rest_api.html#Response_body[Response body] overview section of this documentation.
+
+
+== Definitions
+
+[.api-def-first-level]
+.See Definitions
+[%collapsible%closed]
+//Start collapsible Definitions block
+====                
+[#directory_restore]
+[.api-collapsible-fifth-title]
+directory_restore
+
+Restores a directory from a volume snapshot.
+
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|path
+|string
+a|Source from where the directory is restored.
+
+
+|restore_path
+|string
+a|Destination directory where the new directory tree is created.
+
+
+|snapshot
+|string
+a|Name of the volume snapshot from which the directory is restored.
+
+
+|volume
+|string
+a|Name of the volume from which the snapshot is used for directory restore.
+
+
+|vserver
+|string
+a|Name of the SVM.
+
+
+|===
+
+
+[#error_arguments]
+[.api-collapsible-fifth-title]
+error_arguments
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|code
+|string
+a|Argument code
+
+
+|message
+|string
+a|Message argument
+
+
+|===
+
+
+[#returned_error]
+[.api-collapsible-fifth-title]
+returned_error
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|arguments
+|array[link:#error_arguments[error_arguments]]
+a|Message arguments
+
+
+|code
+|string
+a|Error code
+
+
+|message
+|string
+a|Error message
+
+
+|target
+|string
+a|The target parameter that caused the error.
+
+
+|===
+
+
+//end collapsible .Definitions block
+====

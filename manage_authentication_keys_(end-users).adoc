@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'manage_authentication_keys_(end-users).html'
+summary: 'Manage authentication keys (end-users)'
+---
+
+= Manage authentication keys (end-users)
+
+
+
+== Overview
+
+This API configures the public keys for end-user (non-cluster admin) accounts.
+Specify the owner UUID, the user account name, and the index in the URI path. The owner UUID corresponds to the UUID of the SVM containing the user account associated with the public key and can be obtained from the response body of the GET request performed on the API "`/api/svm/svms".
+
+The index value corresponds to the public key that needs to be modified or deleted (it is possible to create more than one public key for the same user account).
+
+== Examples
+
+=== Retrieving the specific configured public key for user accounts
+
+----
+
+# The API:
+GET "/api/security/authentication/publickeys/{owner.uuid}/{account.name}/{index}"
+
+# The call:
+curl -k https://<mgmt-ip>/api/security/authentication/publickeys/513a78c7-8c13-11e9-8f78-005056bbf6ac/pubuser4/0
+----
+
+=== Updating the public key, certificate, and comment for user accounts
+
+----
+
+# The API:
+PATCH "/api/security/authentication/publickeys/{owner.uuid}/{account.name}/{index}"
+
+# The call:
+curl -k https://<mgmt-ip>/api/security/authentication/publickeys/d49de271-8c11-11e9-8f78-005056bbf6ac/pubuser1/0 --request PATCH --data '{ "comment": "Cserver-modification", "certificate": "-----BEGIN CERTIFICATE-----\nMIIFrTCCA5WgAwIBAgICEAMwDQYJKoZIhvcNAQELBQAwYDELMAkGA1UEBhMCVVMx\nCzAJBgNVBAgMAk5DMQwwCgYDVQQHDANSVFAxDzANBgNVBAoMBk5FVEFQUDENMAsG\nA1UECwwETlRBUDEWMBQGA1UEAwwNTlRBUC1JTlRFUkNBMjAeFw0yMzAxMTkwOTE4\nMzBaFw0yNDAxMjkwOTE4MzBaMFcxCzAJBgNVBAYTAklOMQswCQYDVQQIDAJLQTEM\nMAoGA1UEBwwDQkxSMQ0wCwYDVQQKDAROVEFQMQ0wCwYDVQQLDAROVEFQMQ8wDQYD\nVQQDDAZNWU5UQVAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfkWQD\n4kQcInzLQh95eNMXOP6AK9DIzM1e5V7350xTiWmrmiqREh96Asms4RxOHTI4Q1ox\nghn3NugjWy/y9aCao+Uz6nIG8gAP+NIYb3TU/WeGJFKF6fRJgaZxIzBjla3x1QQ5\nrCWZMPuEiKZeBtnyHnoz6g3d5Cz4Ahu2mmHUDbAah25nNuYA9vbroP4GPtE4KQYQ\n2lKtXnw8UKvyTYBOU3KzM2PP+lhtNmh3l/rgFhx99x1P6x8I8c6xRRQIjfIhHH9n\n8mLkElc3SMSeRNLIQn8JSd9gly6FyHDF2jsPWdRjTlPyvGeN+LNUsBrBgmeyuFvA\nTq0/7lavqoNiwA4dAgMBAAGjggF4MIIBdDAJBgNVHRMEAjAAMBEGCWCGSAGG+EIB\nAQQEAwIGQDAzBglghkgBhvhCAQ0EJhYkT3BlblNTTCBHZW5lcmF0ZWQgU2VydmVy\nIENlcnRpZmljYXRlMB0GA1UdDgQWBBQkJGop1KmP0D5jkblSGk3nSGHf5jCBiwYD\nVR0jBIGDMIGAgBQqjApAoQETk23RqM0Fo7u60SsmL6FkpGIwYDELMAkGA1UEBhMC\nVVMxCzAJBgNVBAgMAk5DMQwwCgYDVQQHDANSVFAxDzANBgNVBAoMBk5FVEFQUDEN\nMAsGA1UECwwETlRBUDEWMBQGA1UEAwwNTlRBUC1JTlRFUkNBMYICEAAwDgYDVR0P\nAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBME0GCCsGAQUFBwEBBEEwPzA9\nBggrBgEFBQcwAYYxaHR0cDovL3Njc3ByMjY5Mjc4OTAyMS5nZGwuZW5nbGFiLm5l\ndGFwcC5jb206MjU2MDANBgkqhkiG9w0BAQsFAAOCAgEASSs8BR96qNipv4X8ZS49\nhW5MpkuQmHg2E7ICXYPP+r0qHeAa0fVpstLoju7ICo1HyfszwlncO8X2V37cQsCB\nMsMq1THVhKExPuAwUjTk6aP6kiun8Werr7rOqFKheZDkCxIMQ0E2mK+O5z6wZaqc\nOa1o4jmAEDUvLBYLYxa0qXa1EunLpOOJTg0fkCW8SOwGDT7CWhpk1AiqivnGnsaz\nhN54gPbinI6La9elEfbNJSOLQUGzvp9nhkFGNssx5tl0Ij+qzxV6DrzbY8qAeCH2\nrZnasMILUGISQC1LvxxeGcZ7da4AX3V8/ixHeKoUsk5kA+ucHEB+GP15L0KGU5xa\nY/Uy7Uoh1GRPmvILelxzf2jK+z4x8hudJ9TUrskrLHkrsAm68eW5IikIJmQsCBiM\nioGib6tWl250etSiC9byQ48W99yOlyShe8EQStogOeshXJfMyY7VZa0YA/4KMtvi\nO+fxF6LdeFMeu0qxvYLYnIbNPmc2ohGrZwffnL/Kc9s9RF5dk9bjchCKuL3+bdBm\nIdcvjGi1gGHzgvsg7W54/ctwFH/qW5N68SE7JCv0DtydjUhtlU34I1RfrJD72L3X\nLAb0KlLG92Oun5psy49vprr143X7eOlGB4TNjUsXW9lNP/R8J3o1ZNnoZq7E32XI\ntsi/5Ttkq7aT975alerJoAU=\n-----END CERTIFICATE-----" , "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfkWQD4kQcInzLQh95eNMXOP6AK9DIzM1e5V7350xTiWmrmiqREh96Asms4RxOHTI4Q1oxghn3NugjWy/y9aCao+Uz6nIG8gAP+NIYb3TU/WeGJFKF6fRJgaZxIzBjla3x1QQ5rCWZMPuEiKZeBtnyHnoz6g3d5Cz4Ahu2mmHUDbAah25nNuYA9vbroP4GPtE4KQYQ2lKtXnw8UKvyTYBOU3KzM2PP+lhtNmh3l/rgFhx99x1P6x8I8c6xRRQIjfIhHH9n8mLkElc3SMSeRNLIQn8JSd9gly6FyHDF2jsPWdRjTlPyvGeN+LNUsBrBgmeyuFvATq0/7lavqoNiwA4d" }'
+----
+
+=== Deleting the public key for user accounts
+
+----
+
+# The API:
+DELETE "/api/security/authentication/publickeys/{owner.uuid}/{account.name}/{index}"
+
+# The call:
+curl -k https://<mgmt-ip>/api/security/authentication/publickeys/d49de271-8c11-11e9-8f78-005056bbf6ac/pubuser1/0 --request DELETE
+----
+
+

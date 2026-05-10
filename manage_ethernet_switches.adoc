@@ -1,0 +1,257 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'manage_ethernet_switches.html'
+summary: 'Manage Ethernet switches'
+---
+
+= Manage Ethernet switches
+
+
+
+== Overview
+
+This API can be used to get information about the Ethernet switches used for cluster and/or storage networks. This API supports GET, PATCH, POST, and DELETE calls. The GET operation returns a list of discovered switches with status and configuration information. PATCH is used to modify the state of the switch. POST is used to add new switches. DELETE is used to remove existing switches.
+
+== Examples
+
+=== Retrieving the ethernet switches for a cluster
+
+The following example retrieves the ONTAP switches from the cluster.
+Note that if the _fields=*_ parameter is not specified, the fields snmp.version, snmp.user, version, monitoring.enabled, and monitoring.reason are not returned.
+Filters can be added on the fields to limit the results.
+
+[,json]
+----
+
+# The API:
+GET network/ethernet/switches
+
+# The call:
+curl -X GET "https://<mgmt-ip>/api/network/ethernet/switches?fields=*" -H  "accept: application/hal+json" -H "Content-Type: application/hal+json"
+
+# The response:
+{
+"records": [
+  {
+    "name": "RTP-CS01-510R11(FOC22092K12)",
+    "address": "172.26.207.77",
+    "discovered": true,
+    "model": "NX3232C",
+    "monitoring": {
+      "enabled": true,
+      "monitored": true,
+      "reason": "None"
+    },
+    "network": "cluster",
+    "serial_number": "Unknown",
+    "snmp": {
+      "version": "snmpv2c",
+      "user": "cshm1!"
+    },
+    "version": "Cisco Nexus Operating System (NX-OS) Software, Version 9.2(3)",
+    "_links": {
+      "self": {
+        "href": "/api/network/ethernet/switches/RTP-CS01-510R11%28FOC22092K12%29"
+      }
+    }
+  },
+  {
+    "name": "RTP-CS01-510R12(FOC22373C3P)",
+    "address": "172.26.207.82",
+    "discovered": true,
+    "model": "NX3232C",
+    "monitoring": {
+      "enabled": true,
+      "monitored": true,
+      "reason": "None"
+    },
+    "network": "cluster",
+    "serial_number": "FOC22373C3P",
+    "snmp": {
+      "version": "snmpv2c",
+      "user": "cshm1!"
+    },
+    "version": "Cisco Nexus Operating System (NX-OS) Software, Version 9.2(3)",
+    "_links": {
+      "self": {
+        "href": "/api/network/ethernet/switches/RTP-CS01-510R12%28FOC22373C3P%29"
+      }
+    }
+  },          {
+    "name": "RTP-SS01-510R10(FOC22170DFR)",
+    "address": "172.26.207.65",
+    "discovered": true,
+    "model": "NX3232C",
+    "monitoring": {
+      "enabled": true,
+      "monitored": true,
+      "reason": "None"
+    },
+    "network": "storage",
+    "serial_number": "FOC22170DFR",
+    "snmp": {
+      "version": "snmpv2c",
+      "user": "cshm1!"
+    },
+    "version": "Cisco Nexus Operating System (NX-OS) Software, Version 9.3(3)",
+    "_links": {
+      "self": {
+        "href": "/api/network/ethernet/switches/RTP-SS01-510R10%28FOC22170DFR%29"
+      }
+    }
+  },
+  {
+    "name": "RTP-SS02-510R10(FOC22131U6T)",
+    "address": "172.26.207.66",
+    "discovered": true,
+    "model": "NX3232C",
+    "monitoring": {
+      "enabled": true,
+      "monitored": true,
+      "reason": "None"
+    },
+    "network": "storage",
+    "serial_number": "FOC22131U6T",
+    "snmp": {
+      "version": "snmpv2c",
+      "user": "cshm1!"
+    },
+    "version": "Cisco Nexus Operating System (NX-OS) Software, Version 9.3(3)",
+    "_links": {
+      "self": {
+        "href": "/api/network/ethernet/switches/RTP-SS02-510R10%28FOC22131U6T%29"
+      }
+    }
+  }
+],
+"num_records": 4,
+"_links": {
+  "self": {
+    "href": "/api/network/ethernet/switches?fields=*"
+  }
+}
+}
+----
+
+'''
+
+=== Retrieving an ethernet switch for a cluster
+
+The following example retrieves a single switch by name.
+
+[,json]
+----
+
+# The API:
+GET /network/ethernet/switches/{name}
+
+# The call:
+curl -X GET "https://<mgmt-ip>/api/network/ethernet/switches/RTP-SS02-510R10(FOC22131U6T)?fields=*" -H  "accept: application/hal+json" -H "Content-Type: application/hal+json"
+
+# The response:
+{
+"name": "RTP-SS02-510R10(FOC22131U6T)",
+"address": "172.26.207.66",
+"discovered": true,
+"model": "NX3232C",
+"monitoring": {
+  "enabled": true,
+  "monitored": true,
+  "reason": "None"
+},
+"network": "storage",
+"serial_number": "FOC22131U6T",
+"snmp": {
+  "version": "snmpv2c",
+  "user": "cshm1!"
+},
+"version": "Cisco Nexus Operating System (NX-OS) Software, Version 9.3(3)",
+"_links": {
+  "self": {
+    "href": "/api/network/ethernet/switches/RTP-SS02-510R10(FOC22131U6T)"
+  }
+}
+}
+----
+
+'''
+
+=== Configuring a switch
+
+The following example configures SNMP credential and version on a switch.
+
+[,json]
+----
+
+# The API:
+PATCH /network/ethernet/switches/{name}
+
+# The call:
+curl -X PATCH "https://<mgmt-ip>/api/network/ethernet/switches/sconqa-corduroyl-03" -H "accept: application/hal+json" -H "Content-Type: application/hal+json" -d '{"snmp": {"version": "snmpv2c", "user": "cshm1!"}}'
+
+# The response:
+{
+"job": {
+  "uuid": "f84fbb3c-589c-11ec-b181-d039ea48a7dc",
+  "_links": {
+    "self": {
+      "href": "/api/cluster/jobs/f84fbb3c-589c-11ec-b181-d039ea48a7dc"
+    }
+  }
+}
+}
+----
+
+'''
+
+=== Adding a switch
+
+The following example adds a switch.
+
+[,json]
+----
+
+# The API:
+POST /network/ethernet/switches
+
+# The call:
+curl -X POST "https://<mgmt-ip>/api/network/ethernet/switches" -H "accept: application/hal+json" -H "Content-Type: application/hal+json" -d '{"name": "RTP-SS02-510R10(FOC22131U6T)", "address": "172.26.207.66", "model": "NX3232C", "monitoring": {"enabled": "true"}, "network": "storage", "snmp": {"version": "snmpv2c", "user": "cshm1!"}}'
+
+# The response:
+{
+"job": {
+  "uuid": "f84fbb3c-589c-11ec-b181-d039ea48a7dc",
+  "_links": {
+    "self": {
+      "href": "/api/cluster/jobs/f84fbb3c-589c-11ec-b181-d039ea48a7dc"
+    }
+  }
+}
+}
+----
+
+'''
+
+=== Deleting a switch
+
+The following example deletes a switch.
+
+[,json]
+----
+
+# The API:
+DELETE /network/ethernet/switches/{name}
+
+# The call:
+curl -X DELETE "https://<mgmt-ip>/api/network/ethernet/switches/sconqa-corduroyl-03" -H "accept: application/hal+json" -H "Content-Type: application/hal+json"
+
+# The response:
+{
+}
+----
+
+'''
+
+
