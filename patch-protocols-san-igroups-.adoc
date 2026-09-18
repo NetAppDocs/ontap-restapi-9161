@@ -7,6 +7,7 @@ summary: 'Update an initiator group'
 ---
 
 = Update an initiator group
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/san/igroups/{uuid}`#
 

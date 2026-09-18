@@ -7,6 +7,7 @@ summary: 'Retrieve details of a collection or consistency group'
 ---
 
 = Retrieve details of a collection or consistency group
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups`#
 

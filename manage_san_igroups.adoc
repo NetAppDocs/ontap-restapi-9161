@@ -7,6 +7,7 @@ summary: 'Manage SAN igroups'
 ---
 
 = Manage SAN igroups
+:imagesdir: ./media/
 
 
 
