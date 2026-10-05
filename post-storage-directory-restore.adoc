@@ -7,6 +7,7 @@ summary: 'Restore the source directory from the volume snapshot on the destinati
 ---
 
 = Restore the source directory from the volume snapshot on the destination directory
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/directory-restore`#
 

@@ -7,6 +7,7 @@ summary: 'Restore source directory'
 ---
 
 = Restore source directory
+:imagesdir: ./media/
 
 
 

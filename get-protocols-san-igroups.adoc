@@ -7,6 +7,7 @@ summary: 'Retrieve initiator groups'
 ---
 
 = Retrieve initiator groups
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/igroups`#
 

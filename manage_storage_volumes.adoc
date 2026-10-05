@@ -7,6 +7,7 @@ summary: 'Manage storage volumes'
 ---
 
 = Manage storage volumes
+:imagesdir: ./media/
 
 
 
