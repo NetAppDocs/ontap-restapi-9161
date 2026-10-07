@@ -104,6 +104,9 @@ a|An array of initiators specified to add multiple initiators to an initiator gr
 {
   "comment": "string",
   "connectivity_tracking": {
+    "alerts": [
+      {}
+    ],
     "connection_state": "string",
     "connections": [
       {
