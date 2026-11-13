@@ -3,17 +3,26 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-cluster-software.html'
+keywords: 'software update,cluster upgrade,version installation,validate upgrade,skip warnings,stabilize node'
 summary: 'Update the cluster software version'
 ---
 
 = Update the cluster software version
 :imagesdir: ./media/
 
+[.lead]
+Updates the cluster software version to install a new package and enhance system functionality. You might perform this operation to apply critical updates or new features to your cluster environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/cluster/software`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates the cluster software version.
+ONTAP 9.6
+
+== Usage notes
+
 Important note:
 
 *** Setting 'version' triggers the package installation.

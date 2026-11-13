@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-application-applications-.html'
+keywords: 'application update,properties modification,storage service change,performance tier,igroup mapping,size adjustment'
 summary: 'Update application properties'
 ---
 
 = Update application properties
 :imagesdir: ./media/
 
+[.lead]
+Updates the properties of an application to modify aspects like the storage service, size, and initiator group name. This is useful for tailoring application configurations to meet changing performance or capacity requirements.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/application/applications/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates the properties of an application.
+ONTAP 9.6
 
 == Overview
 

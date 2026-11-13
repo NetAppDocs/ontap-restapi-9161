@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-services.html'
+keywords: 's3 server,create s3,svm configuration,bucket creation,user creation'
 summary: 'Create S3 server, users, and buckets configurations'
 ---
 
 = Create S3 server, users, and buckets configurations
 :imagesdir: ./media/
 
+[.lead]
+Creates S3 server, user, and bucket configurations. This is useful when setting up S3 storage services within an existing Storage Virtual Machine (SVM).
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/services`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Creates an S3 server, users, and buckets configurations.
 

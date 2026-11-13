@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snapmirror_policies.html'
+keywords: 'snapmirror policies,async policies,sync policies,sync type,mirror vault,automated failover'
 summary: 'Manage SnapMirror policies'
 ---
 
 = Manage SnapMirror policies
 :imagesdir: ./media/
 
-
+[.lead]
+Manage SnapMirror policies to control the behavior and configuration attributes of SnapMirror relationships. Use these endpoints to apply policies of type "async" or "sync" to various storage endpoints, ensuring data consistency and availability according to your specific requirements.
 
 == Managing SnapMirror policies
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_pools.html'
+keywords: 'storage pools,flash capacity,shared storage,usable spares,cluster nodes'
 summary: 'Manage storage pools'
 ---
 
 = Manage storage pools
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage shared storage pools in your cluster using these endpoints. Use them to access storage pool identifiers, view properties, and create new storage pools with specified configurations.
 
 == Retrieving storage pool information
 

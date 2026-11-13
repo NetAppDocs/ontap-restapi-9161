@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-fabrics-switches.html'
+keywords: 'fibre channel,fibre channel fabric,fibre channel switches,switches topology,fc fabric'
 summary: 'Retrieve FC fabric switches'
 ---
 
 = Retrieve FC fabric switches
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the Fibre Channel switches of a Fibre Channel fabric to monitor and manage your network's Fibre Channel topology effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/fabrics/{fabric.name}/switches`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Retrieves the Fibre Channel switches of a Fibre Channel fabric.
+ONTAP 9.11
 
 == Expensive properties
 

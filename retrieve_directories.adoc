@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_directories.html'
+keywords: 'directories retrieval,performance metrics,capacity metrics,read operations,non recursive bytes'
 summary: 'Retrieve directories'
 ---
 
 = Retrieve directories
 :imagesdir: ./media/
 
-
+[.lead]
+Use the Retrieve directories API to obtain a list of directories based on specified performance or capacity metrics within a volume. Filter for metrics like IOPS or throughput to gain insights into directory activity, or use capacity metrics such as non-recursive bytes used to identify large directories. The API returns results for one metric type per request, with a current maximum of 25 directories.
 
 == Overview
 

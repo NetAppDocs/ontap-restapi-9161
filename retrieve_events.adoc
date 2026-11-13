@@ -3,18 +3,20 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_events.html'
+keywords: 'events retrieval,ems events,ontap support,live event collection,event filtering'
 summary: 'Retrieve events'
 ---
 
 = Retrieve events
 :imagesdir: ./media/
 
-
+[.lead]
+Query observed events on the system using these endpoints to monitor and analyze occurrences in real-time. Apply filters to refine the collection of events for specific insights.
 
 == Overview
 
 Queries a live collection of observed events on the system.
-Note: The `filter.name` parameter is used to pass a filter to be applied to the event collection returned. To retrieve the list of available filters, refer to <</docs/support/ems_filter_collection_get,/support/ems/filters>>
+Note: The `filter.name` parameter is used to pass a filter to be applied to the event collection returned. To retrieve the list of available filters, refer to link:get-support-ems-filters.html[/support/ems/filters]
 
 == Example
 

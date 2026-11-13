@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_switches.html'
+keywords: 'storage switches,manage switches,switch cluster,storage management,brocade switches'
 summary: 'Manage storage switches'
 ---
 
 = Manage storage switches
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve detailed information about storage switches within your cluster using the GET API. Access these endpoints to monitor switch configurations and ensure optimal connectivity and performance across your network.
 
 == Retrieving storage switch information
 

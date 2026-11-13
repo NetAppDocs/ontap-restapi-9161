@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-aws-kms.html'
+keywords: 'aws kms,aws configuration,svm kms,aws region,key manager,security configuration'
 summary: 'Configure the AWS KMS configuration for an SVM'
 ---
 
 = Configure the AWS KMS configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Configures the AWS Key Management Service (KMS) settings for a specific SVM to enable secure key management for encryption tasks. This action is typically used to integrate AWS KMS with your ONTAP environment, ensuring that encryption keys are stored and managed according to AWS standards.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/aws-kms`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Configures the AWS KMS configuration for the specified SVM.
 

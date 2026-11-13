@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-interfaces.html'
+keywords: 'fc interfaces,network interfaces,cluster node,fc fabric,data protocol,retrieve interfaces'
 summary: 'Retrieve FC interfaces'
 ---
 
 = Retrieve FC interfaces
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about FC interfaces to examine their current configuration and status. This can help you manage and optimize your Fibre Channel network resources effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/interfaces`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves FC interfaces.
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_subsystems.html'
+keywords: 'nvme subsystems,namespace access,nvme connected hosts,subsystem configuration,manage nvme'
 summary: 'Manage NVMe subsystems'
 ---
 
 = Manage NVMe subsystems
 :imagesdir: ./media/
 
-
+[.lead]
+The NVMe subsystem endpoints manage the configuration state and namespace access control for NVMe-connected hosts. Use these endpoints to create, update, delete, and discover NVMe subsystems, and to manage host access to these subsystems and their namespaces.
 
 == Overview
 

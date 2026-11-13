@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snapshot_policies_and_schedules.html'
+keywords: 'snapshot policies,snapshot schedules,policy retention,snapshot prefix,snaplock expiry'
 summary: 'Manage snapshot policies and schedules'
 ---
 
 = Manage snapshot policies and schedules
 :imagesdir: ./media/
 
-
+[.lead]
+Manage snapshot policies and schedules to automate and control the creation of snapshots across your ONTAP environment. Use these endpoints to add, retrieve, update, or delete schedules within snapshot policies, tailoring snapshot operations to meet your retention and expiration requirements.
 
 == Overview
 

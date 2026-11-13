@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_volume_snapshots.html'
+keywords: 'volume snapshots,manage snapshots,snapshot creation,snapshot deletion,snapshot attributes'
 summary: 'Manage volume snapshots'
 ---
 
 = Manage volume snapshots
 :imagesdir: ./media/
 
-
+[.lead]
+Snapshot APIs in ONTAP facilitate the creation, modification, deletion, and retrieval of filesystem snapshots to capture the state of data at specific points in time. These APIs support various snapshot types, including scheduled, user-requested, and SnapMirror snapshots, with options for handling multiple volumes simultaneously. Users employ these endpoints for efficient data protection and recovery across their storage environment.
 
 == Overview
 

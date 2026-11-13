@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_a_duo_profile.html'
+keywords: 'duo profile,secure shell,cluster scoped,svm scoped,fail mode,integration key'
 summary: 'View and create a Duo profile'
 ---
 
 = View and create a Duo profile
 :imagesdir: ./media/
 
-
+[.lead]
+Configure Duo profiles for secure shell (SSH) authentication using these endpoints. Create profiles with necessary parameters like integration and secret keys, or retrieve existing profiles for specific storage virtual machines (SVMs).
 
 == Overview
 

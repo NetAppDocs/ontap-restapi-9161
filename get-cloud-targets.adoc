@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cloud-targets.html'
+keywords: 'cloud targets,retrieves targets,cluster targets,object store,storage aggregate,snapmirror config'
 summary: 'Retrieve cloud targets in the cluster'
 ---
 
 = Retrieve cloud targets in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves cloud targets in the cluster to access a comprehensive list of all configured cloud storage resources. This operation is typically useful when managing or auditing cloud storage configurations within your cluster environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cloud/targets`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the collection of cloud targets in the cluster.
 

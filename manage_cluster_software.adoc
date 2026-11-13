@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_software.html'
+keywords: 'cluster software,software packages,firmware upgrade,software version,software history,package download'
 summary: 'Manage cluster software'
 ---
 
 = Manage cluster software
 :imagesdir: ./media/
 
-
+[.lead]
+Access cluster software endpoints to manage and monitor software profiles, packages, and firmware within your ONTAP environment. Use these endpoints to upgrade software versions, download packages, and control ongoing software upgrades.
 
 == Overview
 

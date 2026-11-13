@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-file-moves.html'
+keywords: 'file moves,cluster operations,volume rebalance,flexgroup filter,svm filter,cutover time'
 summary: 'Retrieve all ongoing file move operations in the cluster'
 ---
 
 = Retrieve all ongoing file move operations in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves all ongoing file move operations in the cluster to monitor and manage active data migrations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/moves`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Retrieves all ongoing file move operations in the cluster.
+ONTAP 9.11
 
 == Related ONTAP commands
 

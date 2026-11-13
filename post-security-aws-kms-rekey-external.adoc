@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-aws-kms-rekey-external.html'
+keywords: 'aws kms,aws encryption,aws rekey,security key-manager,aws key encryption,key reversion'
 summary: 'Re-key or re-version an AWS KMS key encryption key for AWS KMS'
 ---
 
 = Re-key or re-version an AWS KMS key encryption key for AWS KMS
 :imagesdir: ./media/
 
+[.lead]
+Rekeys or re-version an AWS KMS Key Encryption Key (KEK) to update the encryption configuration for your AWS KMS resources.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/aws-kms/{aws_kms.uuid}/rekey-external`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Rekeys or re-versions the AWS KMS Key Encryption Key (KEK) for the given AWS KMS.
 

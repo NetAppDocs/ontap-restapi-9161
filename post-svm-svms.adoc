@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-svm-svms.html'
+keywords: 'svm provisioning,create svm,ipspace configuration,parallel svm limit,storage limit,volume analytics'
 summary: 'Create and provision an SVM'
 ---
 
 = Create and provision an SVM
 :imagesdir: ./media/
 
+[.lead]
+Creates and provisions a Storage Virtual Machine (SVM) to establish a new virtual storage environment within your ONTAP system. This process is essential when setting up a dedicated space for managing data services like CIFS, NFS, or S3, tailored to specific organizational needs.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/svm/svms`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates and provisions an SVM. If no IPspace is provided, then the SVM is created on the `Default` IPspace.
 

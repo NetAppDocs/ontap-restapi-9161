@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_cluster_chassis.html'
+keywords: 'cluster chassis,chassis information,cluster nodes,hardware components,fru status'
 summary: 'Retrieve cluster chassis'
 ---
 
 = Retrieve cluster chassis
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve detailed information about all chassis within your ONTAP cluster using the chassis GET API. These endpoints are essential for monitoring hardware components and ensuring optimal cluster performance.
 
 == Overview
 

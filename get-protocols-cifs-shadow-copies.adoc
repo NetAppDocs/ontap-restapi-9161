@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-shadow-copies.html'
+keywords: 'shadowcopies,cifs protocol,vserver cifs,shadowcopy set,share name,record limit'
 summary: 'Retrieve shadow copies'
 ---
 
 = Retrieve shadow copies
 :imagesdir: ./media/
 
+[.lead]
+Retrieves shadow copies to give you access to previous versions of files and directories on a CIFS share. Use this endpoint when you need to restore or review file states from different points in time.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/shadow-copies`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves Shadowcopies
 

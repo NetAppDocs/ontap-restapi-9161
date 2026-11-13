@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_authentication_keys_end-users_.html'
+keywords: 'public keys,manage keys,key configuration,user accounts,authentication keys'
 summary: 'Manage authentication keys (end-users)'
 ---
 
 = Manage authentication keys (end-users)
 :imagesdir: ./media/
 
-
+[.lead]
+Configure public keys for end-user accounts using these endpoints. By specifying the owner UUID, user account name, and index, you can retrieve, update, or delete public keys associated with user accounts within a Storage Virtual Machine (SVM).
 
 == Overview
 

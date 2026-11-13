@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-bridges.html'
+keywords: 'storage bridges,fc ports,sas ports,retrieve bridges,storage bridge show,vendor model'
 summary: 'Retrieve a collection of bridges'
 ---
 
 = Retrieve a collection of bridges
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about all bridges to view their current configurations and statuses.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/bridges`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves a collection of bridges.
 

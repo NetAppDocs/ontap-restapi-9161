@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-kerberos-interfaces.html'
+keywords: 'kerberos interfaces,nfs kerberos,kerberos encryption,nfs interface,vserver kerberos'
 summary: 'Retrieve Kerberos interfaces'
 ---
 
 = Retrieve Kerberos interfaces
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about Kerberos interfaces, which is useful for managing and monitoring NFS protocol security configurations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/kerberos/interfaces`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves Kerberos interfaces.
 

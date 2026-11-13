@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-cluster-software-download.html'
+keywords: 'software download,firmware package,cluster software,ontap cluster,image package'
 summary: 'Download a software or firmware package'
 ---
 
 = Download a software or firmware package
 :imagesdir: ./media/
 
+[.lead]
+Downloads a software or firmware package from the server. Use this operation to retrieve essential files for updates or system maintenance.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/cluster/software/download`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Downloads a software or firmware package from the server.
+ONTAP 9.6
 
 == Required properties
 

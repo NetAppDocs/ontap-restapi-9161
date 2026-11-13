@@ -3,17 +3,19 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ssh_server.html'
+keywords: 'ssh server,ssh configuration,security algorithms,key exchange,connection limits'
 summary: 'Manage SSH server'
 ---
 
 = Manage SSH server
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage SSH server settings at the cluster level, including security parameters and connection limits. Use these endpoints to update algorithms, authentication retries, and session limits, ensuring secure and efficient SSH access across your ONTAP environment.
 
 == Overview
 
-ONTAP supports SSH server that can be accessed from any standard SSH client. A user account needs to be associated with SSH as the application (refer the documentation for _api/security/accounts_ link:manage_security-related_accounts.html[DOC /security/accounts] . Upon connecting from a client, the user is authenticated and a command line shell is presented.
+ONTAP supports SSH server that can be accessed from any standard SSH client. A user account needs to be associated with SSH as the application (refer the documentation for _api/security/accounts_ link:manage_security-related_accounts.html[DOC /security/accounts] ). Upon connecting from a client, the user is authenticated and a command line shell is presented.
 
 This endpoint is used to retrieve or modify the SSH configuration at the cluster level. The configuration consists of SSH security parameters (security algorithms, maximum authentication retry attempts allowed before closing the connection, and _ssh-rsa_ enabled status for public key algorithms) and SSH connection limits.
 

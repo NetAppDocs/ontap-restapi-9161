@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ldap_server_configuration.html'
+keywords: 'ldap configuration,cluster ldap,ldap directory,ldap server,ldap management'
 summary: 'Manage LDAP server configuration'
 ---
 
 = Manage LDAP server configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to manage LDAP server configurations within your cluster. Retrieve, create, update, and delete configurations to ensure centralized maintenance of user information stored in external LDAP directories.
 
 == Overview
 

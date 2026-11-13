@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nfs_over_tls_interface_configuration_details.html'
+keywords: 'nfs tls,interface configuration,nfs interface,tls configuration,manage nfs,tls interface'
 summary: 'Manage NFS over TLS interface configuration details'
 ---
 
 = Manage NFS over TLS interface configuration details
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and retrieve NFS over TLS interface details to secure data transmission within your network. These endpoints help ensure that NFS traffic is properly encrypted during transit.
 
 == Examples
 

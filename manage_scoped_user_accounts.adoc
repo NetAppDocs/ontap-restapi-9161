@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_scoped_user_accounts.html'
+keywords: 'user accounts,scoped accounts,svm user,account management,user roles'
 summary: 'Manage scoped user accounts'
 ---
 
 = Manage scoped user accounts
 :imagesdir: ./media/
 
-
+[.lead]
+Manage the configuration of scoped user accounts, including updates to applications, roles, and authentication methods. Use this API to change passwords, lock accounts, or remove them from the system when necessary.
 
 == Overview
 

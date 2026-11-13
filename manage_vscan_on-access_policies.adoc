@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_vscan_on-access_policies.html'
+keywords: 'vscan policies,vscan configuration,on-access scanning,file operations control,cifs share'
 summary: 'Manage Vscan On-Access policies'
 ---
 
 = Manage Vscan On-Access policies
 :imagesdir: ./media/
 
-
+[.lead]
+Use Vscan On-Access policies to configure and manage virus scanning of files accessed over SMB. These endpoints help you define the scope and status of scanning on file objects, ensuring security within your storage virtual machines.
 
 == Overview
 

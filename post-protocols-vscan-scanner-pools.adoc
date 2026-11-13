@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-vscan-scanner-pools.html'
+keywords: 'vscan scanner-pool,svm configuration,scanner-pool servers,privileged users,local cluster,primary role'
 summary: 'Create the Vscan scanner-pool configuration for an SVM'
 ---
 
 = Create the Vscan scanner-pool configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Creates a Vscan scanner-pool configuration for a specific SVM, defining the necessary components for antivirus scanning. This operation is essential for setting up security measures within your ONTAP environment by specifying servers and privileged users in the scanner-pool.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/scanner-pools`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates a Vscan scanner-pool configuration for a specified SVM. You can create a scanner-pool with all fields specified or only mandatory fields specified.
 

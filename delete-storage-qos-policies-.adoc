@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-storage-qos-policies-.html'
+keywords: 'qos policy,policy delete,storage qos,qos workloads,policy removal,qos management'
 summary: 'Delete a QoS policy'
 ---
 
 = Delete a QoS policy
 :imagesdir: ./media/
 
+[.lead]
+Removes a QoS policy, which also deletes all associated QoS workloads.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/storage/qos/policies/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a QoS policy. All QoS workloads associated with the policy are removed.
 

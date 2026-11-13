@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ethernet_switches.html'
+keywords: 'ethernet switches,cluster networks,storage networks,switch configuration,snmp settings,switch monitoring'
 summary: 'Manage Ethernet switches'
 ---
 
 = Manage Ethernet switches
 :imagesdir: ./media/
 
-
+[.lead]
+Access and manage information about Ethernet switches used in cluster and storage networks. Utilize the GET, PATCH, POST, and DELETE operations to retrieve switch details, modify configurations, add new switches, and remove existing ones.
 
 == Overview
 

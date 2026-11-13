@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_metrocluster_dr_groups.html'
+keywords: 'metrocluster dr,metrocluster configuration,create dr group,delete dr group,cluster peering'
 summary: 'Manage MetroCluster DR groups'
 ---
 
 = Manage MetroCluster DR groups
 :imagesdir: ./media/
 
-
+[.lead]
+Utilize the MetroCluster DR groups endpoints to create, manage, and remove disaster recovery groups in your MetroCluster over IP configuration. These endpoints facilitate operations such as retrieving information on existing DR groups or managing creation and deletion tasks asynchronously.
 
 == Overview
 

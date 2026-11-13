@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_authentication_keys.html'
+keywords: 'authentication keys,create keys,list keys,external key manager,admin svm'
 summary: 'Manage authentication keys'
 ---
 
 = Manage authentication keys
 :imagesdir: ./media/
 
-
+[.lead]
+Create and manage authentication keys associated with the admin SVM to secure interactions with external key managers. Use these endpoints to ensure the integrity and confidentiality of your system's authentication processes. An external key manager must be configured on the admin SVM beforehand.
 
 :doctype: book
 

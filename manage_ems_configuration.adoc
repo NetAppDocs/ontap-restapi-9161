@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ems_configuration.html'
+keywords: 'ems configuration,email parameters,event management,event management system,mail server'
 summary: 'Manage EMS configuration'
 ---
 
 = Manage EMS configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure general parameters of the Event Management System (EMS) to tailor alerting and notification settings for your environment.
 
 == Overview
 

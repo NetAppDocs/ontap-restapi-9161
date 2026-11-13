@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_the_anti-ransomware_package.html'
+keywords: 'anti-ransomware management,version retrieval,node security,package update,job tracking'
 summary: 'Manage the anti-ransomware package'
 ---
 
 = Manage the anti-ransomware package
 :imagesdir: ./media/
 
-
+[.lead]
+Manage anti-ransomware versions across your cluster using these endpoints. Retrieve current versions for all nodes or update packages as needed to enhance security measures.
 
 == Overview
 

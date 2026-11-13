@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-cifs-services-.html'
+keywords: 'cifs server,delete cifs,delete cifs configuration,force field,cifs communication error,cifs active directory'
 summary: 'Delete a CIFS server and related configurations'
 ---
 
 = Delete a CIFS server and related configurations
 :imagesdir: ./media/
 
+[.lead]
+Deletes a CIFS server and its associated configurations. Use this operation to remove a server when it is no longer needed or to reset configurations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/cifs/services/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a CIFS server and related CIFS configurations.
 

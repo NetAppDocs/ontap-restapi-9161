@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-namespaces-.html'
+keywords: 'nvme namespace,storage namespace,physical used,efficiency ratio,subsystem map,status mapped'
 summary: 'Retrieve an NVMe namespace'
 ---
 
 = Retrieve an NVMe namespace
 :imagesdir: ./media/
 
+[.lead]
+Retrieves an NVMe namespace to access its configuration details and current status. This can be useful for monitoring and managing NVMe storage resources efficiently.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/namespaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves an NVMe namespace.
+ONTAP 9.6
 
 == Expensive properties
 

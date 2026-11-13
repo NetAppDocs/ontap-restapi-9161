@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snaplock_file_retention_time.html'
+keywords: 'snaplock retention,snaplock file,snaplock delete,file retention,worm retention'
 summary: 'Manage SnapLock file retention time'
 ---
 
 = Manage SnapLock file retention time
 :imagesdir: ./media/
 
-
+[.lead]
+Manage the SnapLock retention time of files to control data immutability and compliance within your ONTAP environment. Execute privileged-delete operations when necessary to comply with retention policies.
 
 This API manages the SnapLock retention time of a file. You can perform a privileged-delete operation by executing this API.
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_all_webauthn_supported_algorithms.html'
+keywords: 'webauthn algorithms, supported algorithms, sha-256, ecdsa, rsassa-pkcs1'
 summary: 'View all WebAuthn supported algorithms'
 ---
 
 = View all WebAuthn supported algorithms
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve the supported algorithms for WebAuthn authentication using this endpoint. This allows you to verify which algorithms are available for secure authentication processes.
 
 == Overview
 

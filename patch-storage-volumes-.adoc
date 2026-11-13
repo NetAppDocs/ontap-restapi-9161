@@ -3,17 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-storage-volumes-.html'
+keywords: 'volume update,volume attributes,volume quota,volume rebalancing,volume encryption,flexgroup volume'
 summary: 'Update volume attributes'
 ---
 
 = Update volume attributes
 :imagesdir: ./media/
 
+[.lead]
+Updates the attributes of a volume, enabling changes such as modifying volume quotas, capacity rebalancing, and encryption settings. This is useful when you need to manage volume configurations or perform operations like volume rekeying and encryption, ensuring your storage setup aligns with your requirements.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/volumes/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates the attributes of a volume. For movement, use the "validate_only" field on the request to validate but not perform the operation. The PATCH API can be used to enable or disable quotas for a FlexVol or a FlexGroup volume. The PATCH API can also be used to start or stop non-disruptive volume capacity rebalancing for FlexGroup volumes in addition to modifying capacity rebalancing properties. An empty path in PATCH deactivates and unmounts the volume. Taking a volume offline removes its junction path.
+ONTAP 9.6
+
+== Usage notes
+
+For movement, use the "validate_only" field on the request to validate but not perform the operation. The PATCH API can be used to enable or disable quotas for a FlexVol or a FlexGroup volume. The PATCH API can also be used to start or stop non-disruptive volume capacity rebalancing for FlexGroup volumes in addition to modifying capacity rebalancing properties. An empty path in PATCH deactivates and unmounts the volume. Taking a volume offline removes its junction path.
 
 A PATCH request for volume encryption performs conversion/rekey operations asynchronously. You can retrieve the conversion/rekey progress details by calling a GET request on the corresponding volume endpoint.
 

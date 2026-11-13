@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-unix-users.html'
+keywords: 'unix users,svm,unix user retrieval,unix user count,unix user filter,svm filter'
 summary: 'Retrieve all UNIX users for all SVMs'
 ---
 
 = Retrieve all UNIX users for all SVMs
 :imagesdir: ./media/
 
+[.lead]
+Retrieves all UNIX users across all SVMs, giving you insight into user configurations within your storage virtual machines.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/unix-users`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves all of the UNIX users for all of the SVMs.
 

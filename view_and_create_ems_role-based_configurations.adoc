@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_ems_role-based_configurations.html'
+keywords: 'ems configurations,role-based access,event filter,limit access,global configurations'
 summary: 'View and create EMS role-based configurations'
 ---
 
 = View and create EMS role-based configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage EMS role-based configurations to control access to EMS events and configurations based on user roles. Use these endpoints to apply event filters and restrict access to global configurations, tailoring permissions to fit administrative needs.
 
 == Overview
 

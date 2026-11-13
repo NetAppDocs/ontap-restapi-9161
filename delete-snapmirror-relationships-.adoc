@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-snapmirror-relationships-.html'
+keywords: 'snapmirror relationship,snapmirror delete,relationship delete,destination cluster,source cluster,snapmirror failover'
 summary: 'Delete a SnapMirror relationship'
 ---
 
 = Delete a SnapMirror relationship
 :imagesdir: ./media/
 
+[.lead]
+Deletes a SnapMirror relationship, which removes the relationship between the source and destination. This operation is typically used when you want to discontinue data replication between clusters.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/snapmirror/relationships/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Deletes a SnapMirror relationship.
+ONTAP 9.6
 
 == Important notes
 

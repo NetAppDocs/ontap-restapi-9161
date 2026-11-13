@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fpolicy_configuration.html'
+keywords: 'fpolicy configuration, file access monitoring, storage system restrictions, file operation permissions, cifs nfs monitoring'
 summary: 'Manage FPolicy configuration'
 ---
 
 = Manage FPolicy configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy components to manage file access permissions and monitor client interactions with your storage system. Use these endpoints to integrate partner applications that can set restrictions on file types and operations, enhancing security and compliance across CIFS and NFS protocols.
 
 == Overview
 

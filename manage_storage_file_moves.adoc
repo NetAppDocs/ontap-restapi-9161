@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_file_moves.html'
+keywords: 'storage management,file move,flexvol volume,flexgroup volume,cluster operations'
 summary: 'Manage storage file moves'
 ---
 
 = Manage storage file moves
 :imagesdir: ./media/
 
-
+[.lead]
+Use the storage file moves endpoints to initiate and monitor file transfer operations within FlexVol or FlexGroup volumes. These endpoints facilitate the movement of files between volumes or constituents, helping to manage and optimize storage capacity in your cluster.
 
 == Overview
 

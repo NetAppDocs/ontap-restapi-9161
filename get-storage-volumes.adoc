@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-volumes.html'
+keywords: 'storage volumes,retrieve volumes,volume efficiency,volume encryption,flexcache volumes,volume statistics'
 summary: 'Retrieve volumes'
 ---
 
 = Retrieve volumes
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about volumes, helping you to manage and monitor storage resources effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/volumes`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves volumes.
 

@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-lun-maps.html'
+keywords: 'lun maps, san protocols, lun mapping, logical unit number, svm name'
 summary: 'Retrieve LUN maps'
 ---
 
 = Retrieve LUN maps
 :imagesdir: ./media/
 
+[.lead]
+Retrieves LUN maps to view current LUN-to-host mappings, helping you understand the relationships between logical unit numbers and connected devices.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/lun-maps`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves LUN maps.
+ONTAP 9.6
 
 == Related ONTAP commands
 

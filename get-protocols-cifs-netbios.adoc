@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-netbios.html'
+keywords: 'netbios information,cifs netbios,netbios retrieval,netbios details,vserver nbtstat'
 summary: 'Retrieve NetBIOS information'
 ---
 
 = Retrieve NetBIOS information
 :imagesdir: ./media/
 
+[.lead]
+Accesses NetBIOS information to view the current configuration and status within your network environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/netbios`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves NetBIOS information.
 

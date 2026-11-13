@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_iscsi_services.html'
+keywords: 'iscsi target,svm management,iscsi performance,iscsi discovery,iscsi session'
 summary: 'Manage iSCSI services'
 ---
 
 = Manage iSCSI services
 :imagesdir: ./media/
 
-
+[.lead]
+Manage iSCSI services to define the properties of the iSCSI target for your SVMs. These endpoints enable you to create, update, delete, and discover iSCSI services, ensuring readiness for initiator logins. Performance monitoring can be achieved using metric and statistics properties to track IOPS, latency, and throughput.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_the_ems_event_catalog.html'
+keywords: 'ems event,ems catalog,event catalog,system events,event descriptions,correct issues'
 summary: 'Manage the EMS event catalog'
 ---
 
 = Manage the EMS event catalog
 :imagesdir: ./media/
 
-
+[.lead]
+Access the EMS event catalog to retrieve a comprehensive list of supported system events along with their descriptions, reasons for occurrence, and corrective actions. Use these endpoints to query and investigate specific events to enhance system troubleshooting and support.
 
 == Overview
 

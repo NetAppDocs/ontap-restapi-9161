@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_mediators.html'
+keywords: 'metrocluster ip,cluster mediators,mediator configuration,mediator status,mediator details'
 summary: 'Manage cluster mediators'
 ---
 
 = Manage cluster mediators
 :imagesdir: ./media/
 
-
+[.lead]
+Manage cluster mediators associated with MetroCluster over IP configurations by adding, removing, or retrieving information about mediators. These endpoints help maintain the status and details of mediators essential for MetroCluster operations.
 
 == Overview
 

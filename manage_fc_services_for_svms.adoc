@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fc_services_for_svms.html'
+keywords: 'fibre channel protocol,svm management,performance monitoring,iops latency,fc initiators,fc target'
 summary: 'Manage FC services for SVMs'
 ---
 
 = Manage FC services for SVMs
 :imagesdir: ./media/
 
-
+[.lead]
+Use the FC Protocol service endpoints to create, update, delete, and discover Fibre Channel services for Storage Virtual Machines (SVMs). Establishing an FC Protocol service is necessary before initiators can log in, ensuring proper configuration and management of Fibre Channel connections.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_host_records.html'
+keywords: 'ip address retrieval,hostname lookup,host records,ipv4 mapping,ipv6 mapping'
 summary: 'View host records'
 ---
 
 = View host records
 :imagesdir: ./media/
 
-
+[.lead]
+View host records to translate hostnames into IP addresses and vice-versa efficiently. Use these endpoints to access host table entries, facilitating network management tasks.
 
 == Overview
 

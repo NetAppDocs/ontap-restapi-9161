@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-services.html'
+keywords: 'cifs servers,retrieve cifs,protocols cifs,cifs services,vserver cifs,statistics metric'
 summary: 'Retrieve CIFS servers'
 ---
 
 = Retrieve CIFS servers
 :imagesdir: ./media/
 
+[.lead]
+Retrieves CIFS server information to understand the configuration and status of CIFS services in your environment. Use this endpoint to access detailed server attributes for management and monitoring tasks.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/services`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves CIFS servers.
 

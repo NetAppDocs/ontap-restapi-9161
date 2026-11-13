@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_local_group_members.html'
+keywords: 'local group members,add local user,delete local user,active directory users,svm local groups'
 summary: 'Manage local group members'
 ---
 
 = Manage local group members
 :imagesdir: ./media/
 
-
+[.lead]
+Manage local group members within an SVM by displaying, adding, or deleting local users and Active Directory entities. Use these endpoints to efficiently administer group configurations in your ONTAP environment.
 
 == Overview
 

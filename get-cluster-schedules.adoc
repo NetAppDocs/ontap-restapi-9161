@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-schedules.html'
+keywords: 'schedule retrieval,cluster schedules,schedule filters,cron schedule,svm schedule'
 summary: 'Retrieve schedules'
 ---
 
 = Retrieve schedules
 :imagesdir: ./media/
 
+[.lead]
+Accesses schedule details to understand predefined tasks and timing configurations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/schedules`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a schedule.
 

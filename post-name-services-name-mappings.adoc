@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-name-services-name-mappings.html'
+keywords: 'svm name,svm uuid,name mappings,name mapping creation,pattern match,replacement pattern'
 summary: 'Create hostname mappings for an SVM'
 ---
 
 = Create hostname mappings for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Creates hostname mappings for an SVM to define how client names are translated within the storage virtual machine. This helps in managing name resolution and ensuring proper client access to resources.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/name-services/name-mappings`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates name mappings for an SVM.
 

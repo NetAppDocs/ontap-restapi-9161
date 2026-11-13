@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'display_metrocluster_diagnostics.html'
+keywords: 'metrocluster diagnostics,high level checks,component checks,periodic schedule,diagnostics results'
 summary: 'Display MetroCluster diagnostics'
 ---
 
 = Display MetroCluster diagnostics
 :imagesdir: ./media/
 
-
+[.lead]
+Initiate and manage MetroCluster diagnostics operations and retrieve results for configurations over IP. Use these endpoints to start diagnostics, schedule periodic checks, and access detailed results for various components in your MetroCluster setup.
 
 == Overview
 

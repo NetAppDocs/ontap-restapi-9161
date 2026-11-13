@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-gcp-kms-.html'
+keywords: 'google cloud kms,update configuration,gcp kms settings,key ring management,proxy setup,application credentials'
 summary: 'Update the Google Cloud KMS configuration'
 ---
 
 = Update the Google Cloud KMS configuration
 :imagesdir: ./media/
 
+[.lead]
+Updates the Google Cloud Key Management Service (KMS) configuration, modifying settings such as credentials and proxy details for secure communication. This helps maintain the integrity and security of interactions with Google Cloud KMS in your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/gcp-kms/{uuid}`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Updates the Google Cloud KMS configuration.
 

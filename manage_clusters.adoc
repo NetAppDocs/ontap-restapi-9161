@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_clusters.html'
+keywords: 'create cluster,manage cluster,cluster configuration,performance monitoring,active directory'
 summary: 'Manage clusters'
 ---
 
 = Manage clusters
 :imagesdir: ./media/
 
-
+[.lead]
+Create, update, and retrieve cluster configurations using this API to manage your ONTAP cluster setup. Use these endpoints to establish new clusters, configure settings, and integrate nodes efficiently.
 
 = Overview
 :doctype: book

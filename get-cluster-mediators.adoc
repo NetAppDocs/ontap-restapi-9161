@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-mediators.html'
+keywords: 'mediator cluster,retrieve mediator,peer connectivity,ip address filter,iscsi initiator,mediator uuid'
 summary: 'Retrieve ONTAP Mediators configured in the cluster'
 ---
 
 = Retrieve ONTAP Mediators configured in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a configured Mediator in the cluster to review its current setup and status.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/mediators`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 "Retrieves a Mediator configured in the cluster."
 

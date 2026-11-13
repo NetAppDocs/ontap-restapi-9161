@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_a_multi-admin-verify_approval_request.html'
+keywords: 'multi-admin verification,approval request,multi-admin rule,designated approvers,command execution'
 summary: 'Manage a multi-admin-verify approval request'
 ---
 
 = Manage a multi-admin-verify approval request
 :imagesdir: ./media/
 
-
+[.lead]
+Access and manage multi-admin verification requests when executing commands protected by a multi-admin rule. Submit requests for approval to designated approvers as required by the associated rule.
 
 == Overview
 

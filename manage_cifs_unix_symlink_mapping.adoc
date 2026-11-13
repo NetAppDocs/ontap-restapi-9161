@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cifs_unix_symlink_mapping.html'
+keywords: 'cifs unix,symlink mapping,smb symbolic links,symbolic link configuration,storage virtual machine,unix symlink'
 summary: 'Manage CIFS UNIX symlink mapping'
 ---
 
 = Manage CIFS UNIX symlink mapping
 :imagesdir: ./media/
 
-
+[.lead]
+Manage CIFS UNIX symlink mapping to facilitate access to symbolic links by SMB clients within shared datastores. These endpoints enable you to create, retrieve, update, and remove UNIX symlink mappings, ensuring proper redirection and access control between CIFS and NFS protocols.
 
 == Overview
 

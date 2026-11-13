@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-export-policies.html'
+keywords: 'export policies,nfs protocols,export policy rules,superuser filter,device creation filter'
 summary: 'Retrieve export policies'
 ---
 
 = Retrieve export policies
 :imagesdir: ./media/
 
+[.lead]
+Retrieves export policies to access the configuration details that govern how data is shared across network protocols. This information helps you understand and manage data access permissions effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/export-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves export policies.
+ONTAP 9.6
 
 == Related ONTAP commands
 

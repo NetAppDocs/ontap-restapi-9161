@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_ssh_svms.html'
+keywords: 'ssh configuration,svm security,ssh ciphers,ssh key exchange,ssh algorithms'
 summary: 'View SSH SVMs'
 ---
 
 = View SSH SVMs
 :imagesdir: ./media/
 
-
+[.lead]
+Use this endpoint to view the SSH security configurations for all data SVMs, detailing key exchange algorithms, encryption ciphers, MAC algorithms, and more. Retrieve configurations to ensure compliance and customize security settings as needed for individual SVMs.
 
 === Overview
 

@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nfs-kerberos-realms.html'
+keywords: 'kerberos realm,realm creation,nfs kerberos,kerberos configuration,active directory integration,kdc server'
 summary: 'Create a Kerberos realm'
 ---
 
 = Create a Kerberos realm
 :imagesdir: ./media/
 
+[.lead]
+Creates a Kerberos realm to establish a secure authentication framework for your storage virtual machine (SVM). This setup is essential when integrating with a Key Distribution Center (KDC) for robust identity verification.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nfs/kerberos/realms`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a Kerberos realm.
+ONTAP 9.6
 
 == Required properties
 

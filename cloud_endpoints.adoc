@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'cloud_endpoints.html'
+keywords: 'cloud targets,object storage,manage cloud,cloud management,storage targets'
 summary: 'ONTAP REST API cloud endpoints'
 ---
 
 = ONTAP REST API cloud endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+Use cloud endpoints to manage object storage targets effectively within your environment.
 
 Manages cloud (object storage) targets
 

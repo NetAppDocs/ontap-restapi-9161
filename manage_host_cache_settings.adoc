@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_host_cache_settings.html'
+keywords: 'host cache,cache settings,negative cache,dns ttl,svm settings'
 summary: 'Manage host cache settings'
 ---
 
 = Manage host cache settings
 :imagesdir: ./media/
 
-
+[.lead]
+Manage host cache settings to retrieve and configure cache settings for hosts in your ONTAP environment. Use these endpoints to adjust parameters like time-to-live (TTL) and enable or disable cache features for efficient host operation.
 
 == Overview
 

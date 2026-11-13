@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-accounts.html'
+keywords: 'user accounts,cluster accounts,password hash,authentication methods,ldap fastbind,second authentication'
 summary: 'Retrieve user accounts in the cluster'
 ---
 
 = Retrieve user accounts in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves user accounts in the cluster to view the existing accounts and their configuration details. This helps in managing access and security settings effectively within the cluster environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/accounts`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a list of user accounts in the cluster.
 

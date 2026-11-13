@@ -3,17 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-cifs-services.html'
+keywords: 'cifs server,ontap protocols,cifs services,active directory,workgroup mode,netbios aliases'
 summary: 'Create a CIFS server'
 ---
 
 = Create a CIFS server
 :imagesdir: ./media/
 
+[.lead]
+Creates a CIFS server to enable file sharing services for Windows clients within a Storage Virtual Machine (SVM). This setup allows integration with Windows Active Directory or workgroups, depending on your network configuration requirements.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/cifs/services`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a CIFS server. Each SVM can have one CIFS server.
+ONTAP 9.6
+
+== Usage notes
+
+Each SVM can have one CIFS server.
 
 == Important notes
 

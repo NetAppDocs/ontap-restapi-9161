@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_tape_devices.html'
+keywords: 'storage tape,manage tapes,tape devices,cluster tapes,tape device management'
 summary: 'Manage storage tape devices'
 ---
 
 = Manage storage tape devices
 :imagesdir: ./media/
 
-
+[.lead]
+Access tape device endpoints to retrieve information about storage tapes in the cluster. Use these endpoints to manage tape devices by setting their online status, assigning aliases, or adjusting their position.
 
 == Retrieving storage tape information
 

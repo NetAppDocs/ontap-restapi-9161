@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_s3_service_users.html'
+keywords: 's3 service users,s3 user account,s3 bucket owner,s3 access key,s3 secret key,key expiration'
 summary: 'Manage S3 service users'
 ---
 
 = Manage S3 service users
 :imagesdir: ./media/
 
-
+[.lead]
+Manage S3 service users by creating, configuring, and deleting user accounts associated with the S3 server. Control access through access and secret keys, which are essential for client-server interactions and can be regenerated as needed.
 
 == Overview
 

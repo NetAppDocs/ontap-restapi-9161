@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_dns_configurations.html'
+keywords: 'dns configuration,dns servers,dns domain name,dynamic dns,dns timeout'
 summary: 'Manage DNS configurations'
 ---
 
 = Manage DNS configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Access and manage DNS configurations to display information and control the DNS subsystem within your storage environment. Use these endpoints when specifying DNS domain names and servers, which are required parameters for DNS operations.
 
 == Overview
 

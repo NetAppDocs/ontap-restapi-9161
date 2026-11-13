@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-volumes-snapshots.html'
+keywords: 'volume snapshot,create snapshot,snapshot retention,snapshot expiry,snapmirror label,snaplock expiry'
 summary: 'Create a volume snapshot'
 ---
 
 = Create a volume snapshot
 :imagesdir: ./media/
 
+[.lead]
+Creates a volume snapshot to capture the current state of your data, which can be useful for backup or recovery purposes.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/volumes/{volume.uuid}/snapshots`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a volume snapshot.
+ONTAP 9.6
 
 == Required properties
 

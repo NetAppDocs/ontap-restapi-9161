@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-authentication-publickeys.html'
+keywords: 'public keys,security authentication,user accounts,certificate management,key retrieval'
 summary: 'Retrieve public keys configured for user accounts'
 ---
 
 = Retrieve public keys configured for user accounts
 :imagesdir: ./media/
 
+[.lead]
+Accesses the configured public keys for user accounts to manage and verify authentication methods within your system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/publickeys`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves the public keys configured for user accounts.
 

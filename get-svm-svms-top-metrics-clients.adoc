@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-svm-svms-top-metrics-clients.html'
+keywords: 'svm clients,i/o activity,top metrics,client list,throughput filter,iops filter'
 summary: 'List clients with the most I/O activity'
 ---
 
 = List clients with the most I/O activity
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a list of clients with the most I/O activity. This helps you identify which clients are generating the highest input/output operations in your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/svm/svms/{svm.uuid}/top-metrics/clients`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Retrieves a list of clients with the most I/O activity.
-
+ONTAP 9.11
 
 == Parameters
 

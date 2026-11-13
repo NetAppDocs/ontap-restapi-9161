@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ethernet-switches.html'
+keywords: 'ethernet switches,chassis network,network address,switch model,discovered switches,snmp version'
 summary: 'Retrieve Ethernet switches attached to a chassis'
 ---
 
 = Retrieve Ethernet switches attached to a chassis
 :imagesdir: ./media/
 
+[.lead]
+Use this endpoint to gather information about the Ethernet switches connected to a chassis. This can be helpful for managing network configurations and verifying switch connections.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ethernet/switches`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves the ethernet switches attached to the chassis.
 

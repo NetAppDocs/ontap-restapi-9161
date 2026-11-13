@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fc_network_interfaces.html'
+keywords: 'fibre channel, storage access, performance monitoring, interface placement, data protocol, cluster node'
 summary: 'Manage FC network interfaces'
 ---
 
 = Manage FC network interfaces
 :imagesdir: ./media/
 
-
+[.lead]
+The Fibre Channel (FC) network interface endpoints provide logical connections to a Storage Virtual Machine (SVM), enabling access to storage using the FC Protocol or NVMe over FC. Use the FC interface REST API to create, modify, delete, and monitor the status of these interfaces, and evaluate or recommend interface placements within your cluster.
 
 == Overview
 

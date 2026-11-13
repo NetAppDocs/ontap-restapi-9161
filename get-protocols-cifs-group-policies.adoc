@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-group-policies.html'
+keywords: 'group policies,cifs protocol,svm group policy,vserver cifs,security settings,retrieve policy objects'
 summary: 'Retrieve unapplied group policy objects for all SVMs'
 ---
 
 = Retrieve unapplied group policy objects for all SVMs
 :imagesdir: ./media/
 
+[.lead]
+Retrieves unapplied group policy objects for all SVMs to review and manage pending configurations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/group-policies`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves group policy objects that are yet to be applied for all SVMs.
 

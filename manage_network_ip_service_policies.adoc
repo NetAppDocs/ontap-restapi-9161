@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ip_service_policies.html'
+keywords: 'network ip,service policies,ip interface,service policy creation,ipspace,svm'
 summary: 'Manage network IP service policies'
 ---
 
 = Manage network IP service policies
 :imagesdir: ./media/
 
-
+[.lead]
+Service policies define the services supported by an IP interface within your network. Use these endpoints to create, retrieve, update, or delete service policies and manage the configurations of services tied to specific IP interfaces. These operations help customize and optimize network functionality according to the needs of your cluster or SVM environments.
 
 == Overview
 

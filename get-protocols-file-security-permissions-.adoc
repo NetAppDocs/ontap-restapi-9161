@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-file-security-permissions-.html'
+keywords: 'file permissions,retrieve permissions,file security,vserver security,file-directory,svm uuid'
 summary: 'Retrieve file permissions'
 ---
 
 = Retrieve file permissions
 :imagesdir: ./media/
 
+[.lead]
+Retrieves file permissions to review the access control settings for specific files within your ONTAP environment. This information helps you ensure proper security and access management across your storage system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/file-security/permissions/{svm.uuid}/{path}`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves  file permissions
 

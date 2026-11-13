@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_aggregates.html'
+keywords: 'storage aggregates,storage expansion,aggregate deletion,aggregate relocation,ssd cache'
 summary: 'Manage storage aggregates'
 ---
 
 = Manage storage aggregates
 :imagesdir: ./media/
 
-
+[.lead]
+Modify storage aggregates using PATCH operations to update their properties. These endpoints allow you to rename aggregates, relocate them to different nodes, adjust their state, enable mirroring, manage disk counts, and configure RAID settings. Use these endpoints to expand aggregates, add storage pools, or enable software encryption.
 
 == Updating storage aggregates
 

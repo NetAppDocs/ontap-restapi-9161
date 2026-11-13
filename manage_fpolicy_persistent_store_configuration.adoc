@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fpolicy_persistent_store_configuration.html'
+keywords: 'fpolicy persistent store, event notifications, volume size, autosize mode, svm configuration'
 summary: 'Manage FPolicy persistent store configuration'
 ---
 
 = Manage FPolicy persistent store configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy Persistent Store settings to manage event notification retention within your storage virtual machine (SVM). These endpoints help define and adjust the volume attributes for an efficient setup. Use them to create, update, retrieve, and delete FPolicy Persistent Store configurations tailored to your SVM's requirements.
 
 == Overview
 

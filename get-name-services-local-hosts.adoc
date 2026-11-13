@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-local-hosts.html'
+keywords: 'local hosts,hostname mapping,svm cluster,ip mapping,dns hosts'
 summary: 'Retrieve IP to hostname mappings for all SVMs in a cluster'
 ---
 
 = Retrieve IP to hostname mappings for all SVMs in a cluster
 :imagesdir: ./media/
 
+[.lead]
+Accesses all IP to hostname mappings for each SVM within the cluster. This can help you manage and verify DNS configurations across your network environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/local-hosts`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves all IP to hostname mappings for all SVMs of the cluster.
 

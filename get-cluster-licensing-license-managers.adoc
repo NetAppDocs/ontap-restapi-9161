@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-licensing-license-managers.html'
+keywords: 'license managers,license retrieval,cluster licensing,record limit,timeout setting'
 summary: 'Retrieve license managers'
 ---
 
 = Retrieve license managers
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the available license managers, which can help you manage and monitor software licenses within your ONTAP environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/licensing/license-managers`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves a collection of license managers.
 
