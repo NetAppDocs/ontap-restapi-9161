@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-anti-ransomware.html'
+keywords: 'anti-ransomware,security nodes,cluster version,ontap security,node protection'
 summary: 'Retrieve the anti-ransomware version of the nodes in the cluster'
 ---
 
 = Retrieve the anti-ransomware version of the nodes in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the anti-ransomware version of nodes in the cluster to monitor and manage security features effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/anti-ransomware`#
 
-*Introduced In:* 9.16
+== Introduced in
 
-Retrieves the anti-ransomware version of the nodes in the cluster.
+ONTAP 9.16
 
 == Related ONTAP commands
 

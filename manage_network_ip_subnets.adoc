@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ip_subnets.html'
+keywords: 'network subnets,ip subnets,subnet creation,subnet retrieval,subnet deletion,ip ranges'
 summary: 'Manage network IP subnets'
 ---
 
 = Manage network IP subnets
 :imagesdir: ./media/
 
-
+[.lead]
+Manage network IP subnets to configure, retrieve, update, and delete subnet details within your cluster. Use these endpoints to ensure efficient organization and oversight of your network's IP configuration.
 
 == Overview
 

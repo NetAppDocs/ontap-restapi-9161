@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-disks.html'
+keywords: 'disk retrieval,storage disks,firmware version,vendor model,sector count,physical size'
 summary: 'Retrieve a collection of disks'
 ---
 
 = Retrieve a collection of disks
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a collection of disks to access detailed information about each disk in your storage environment. This is useful for monitoring disk status and managing storage resources effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/disks`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of disks.
+ONTAP 9.6
 
 == Related ONTAP commands
 

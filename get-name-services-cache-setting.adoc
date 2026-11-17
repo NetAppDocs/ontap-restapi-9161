@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-cache-setting.html'
+keywords: 'nameservice cache,cache setting,global cache,eviction time,remote fetch'
 summary: 'Retrieve a global name service cache setting'
 ---
 
 = Retrieve a global name service cache setting
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a global nameservice cache setting to review the configuration details for managing cache behavior within your network environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/setting`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Retrieves a global nameservice cache setting.
+ONTAP 9.11
 
 == Related ONTAP commands
 

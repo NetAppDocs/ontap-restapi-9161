@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_group_configurations.html'
+keywords: 'group configurations,manage groups,configurations retrieval,group creation,security groups'
 summary: 'Manage group configurations'
 ---
 
 = Manage group configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage group configurations using this API to create, retrieve, and organize security groups within your ONTAP environment.
 
 === Overview
 

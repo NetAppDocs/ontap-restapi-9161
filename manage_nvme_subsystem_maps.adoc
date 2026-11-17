@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_subsystem_maps.html'
+keywords: 'nvme subsystem,subsystem maps,nvme namespace,manage nvme,discover nvme'
 summary: 'Manage NVMe subsystem maps'
 ---
 
 = Manage NVMe subsystem maps
 :imagesdir: ./media/
 
-
+[.lead]
+The NVMe subsystem map REST API handles the creation, deletion, and discovery of NVMe subsystem maps, which associate NVMe namespaces with NVMe subsystems. Use these endpoints to manage access between subsystems and their associated hosts, facilitating efficient data storage operations.
 
 == Overview
 

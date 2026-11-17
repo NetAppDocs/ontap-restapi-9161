@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'application_endpoints.html'
+keywords: 'ontap storage, application management, storage provisioning, application templates, smart containers'
 summary: 'ONTAP REST API application endpoints'
 ---
 
 = ONTAP REST API application endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+ONTAP application endpoints streamline storage management by utilizing application-specific terminology to provision and manage storage objects. These endpoints facilitate a single call to set up storage and protocol access for applications according to NetApp best practices. Application APIs enable you to manage the ONTAP objects that constitute the application collectively, with available templates covering various database and virtualization applications.
 
 == Overview
 

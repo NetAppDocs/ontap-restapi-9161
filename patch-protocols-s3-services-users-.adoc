@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-s3-services-users-.html'
+keywords: 's3 user,svm configuration,access key,secret key,key expiry,user update'
 summary: 'Update an S3 user configuration'
 ---
 
 = Update an S3 user configuration
 :imagesdir: ./media/
 
+[.lead]
+Updates the S3 user configuration for an SVM to manage access credentials and settings. This operation is typically used to regenerate or delete access keys, ensuring secure and up-to-date user access.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/users/{name}`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Updates the S3 user configuration of an SVM.
 

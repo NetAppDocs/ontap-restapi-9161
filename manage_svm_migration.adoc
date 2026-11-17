@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_svm_migration.html'
+keywords: 'svm migration,cluster peering,volume status,temperature-sensitive storage,transfer status'
 summary: 'Manage SVM migration'
 ---
 
 = Manage SVM migration
 :imagesdir: ./media/
 
-
+[.lead]
+Use the SVM migration endpoints to transfer storage virtual machines between clusters securely. Control the migration process by pausing, resuming, or aborting operations as needed, and monitor the progress through status updates. Ensure a cluster peering relationship is established beforehand to utilize these APIs effectively.
 
 = Overview
 

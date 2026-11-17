@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nis_configuration.html'
+keywords: 'nis configuration,nis servers,nis domain name,cluster nis,retrieve nis'
 summary: 'Manage NIS configuration'
 ---
 
 = Manage NIS configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Manage NIS server configurations to authenticate user and client computers within your ONTAP environment. Use these endpoints to retrieve, create, update, or delete NIS domain and server information essential for configuration tasks.
 
 == Overview
 

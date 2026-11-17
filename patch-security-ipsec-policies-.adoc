@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-ipsec-policies-.html'
+keywords: 'update ipsec,ipsec policy,security ipsec,policy modify,ipsec uuid'
 summary: 'Update an IPsec policy'
 ---
 
 = Update an IPsec policy
 :imagesdir: ./media/
 
+[.lead]
+Updates an IPsec policy to modify its configuration settings. Use this operation to adjust security parameters as needed for your network environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/ipsec/policies/{uuid}`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Updates a specific IPsec policy.
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-application-consistency-groups-snapshots-.html'
+keywords: 'consistency group,snapshot operation,snaplock expiry,locked snapshot,snapvault destination'
 summary: 'Complete a consistency group snapshot operation'
 ---
 
 = Complete a consistency group snapshot operation
 :imagesdir: ./media/
 
+[.lead]
+Completes a snapshot operation for a consistency group, finalizing it by committing the snapshot to disk. You can also modify the SnapLock expiry time for locked snapshots in SnapLock for SnapVault destinations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/snapshots/{uuid}`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Completes a snapshot operation of a consistency group. This can also be used to modify the SnapLock expiry time of a locked snapshot in SnapLock for SnapVault destination.
 

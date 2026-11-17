@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-applications.html'
+keywords: 'create application,application template,svm name,application component,cifs access,nfs access'
 summary: 'Create an application'
 ---
 
 = Create an application
 :imagesdir: ./media/
 
+[.lead]
+Creates an application by selecting a specific template that defines its configuration. This process helps you to automatically adhere to best practices for the application's type, streamlining the setup and management of required components.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/applications`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an application.
+ONTAP 9.6
 
 == Template properties
 

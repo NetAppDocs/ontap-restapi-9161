@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'add,_remove,_or_discover_lun_map_reporting_nodes.html'
+keywords: 'lun map,reporting nodes,selective lun map,high availability,san protocols'
 summary: 'Add, remove, or discover LUN map reporting nodes'
 ---
 
 = Add, remove, or discover LUN map reporting nodes
 :imagesdir: ./media/
 
-
+[.lead]
+Manage the reporting nodes for LUN maps to control and optimize network paths advertised via SAN protocols in your ONTAP environment. Use these endpoints to add, remove, or discover nodes as per your configuration needs, ensuring efficient path management and adherence to specific use cases.
 
 == Overview
 

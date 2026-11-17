@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security-related_operations.html'
+keywords: 'cluster security, onboard key manager, software encryption, fips mode, tls configuration, security protocols'
 summary: 'Manage security-related operations'
 ---
 
 = Manage security-related operations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage security-related operations across your cluster using these endpoints to configure encryption, FIPS mode, TLS settings, and security protocols. Use them to maintain robust security postures and adapt configurations as required for your environment.
 
 :doctype: book
 

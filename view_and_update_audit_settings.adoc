@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_audit_settings.html'
+keywords: 'audit settings,security audit,administrative log,change tracking,logging configuration'
 summary: 'View and update audit settings'
 ---
 
 = View and update audit settings
 :imagesdir: ./media/
 
-
+[.lead]
+Manage what is logged to the audit log files using this API. All operations that make changes are logged permanently, while you can update audit settings for GET requests using the PATCH method. Retrieve the current settings with a GET request.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_quota_policy_rules.html'
+keywords: 'storage quota,quota policy rules,flexvol volumes,flexgroup volumes,qtree rules'
 summary: 'Manage storage quota policy rules'
 ---
 
 = Manage storage quota policy rules
 :imagesdir: ./media/
 
-
+[.lead]
+Quota policy rule APIs involve operations such as creating, retrieving, modifying, and deleting quota rules for FlexVol and FlexGroup volumes. Utilize these endpoints to manage storage quotas by defining user, group, or tree-specific rules that enforce limits on storage usage.
 
 == Overview
 

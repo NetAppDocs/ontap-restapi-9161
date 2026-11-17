@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-ssh-svms.html'
+keywords: 'ssh server,sshs configuration,data svms,host key algorithms,mac algorithms,ciphers'
 summary: 'Retrieve the SSH server configuration for all SVMs'
 ---
 
 = Retrieve the SSH server configuration for all SVMs
 :imagesdir: ./media/
 
+[.lead]
+Obtains the SSH server configuration for all storage virtual machines (SVMs), which helps you manage network security settings across your data environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/ssh/svms`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the SSH server configuration for all the data SVMs.
 

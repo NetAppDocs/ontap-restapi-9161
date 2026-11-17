@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_key_managers.html'
+keywords: 'key manager,ontap encryption,volume encryption,key management framework,external key manager,onboard key manager'
 summary: 'Manage key managers'
 ---
 
 = Manage key managers
 :imagesdir: ./media/
 
-
+[.lead]
+Manage key managers to securely store and retrieve encryption keys for various ONTAP client modules. Configure key managers at the cluster or SVM scope to handle key persistence using external or onboard modes.
 
 == Overview
 

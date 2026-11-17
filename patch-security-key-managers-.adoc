@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-key-managers-.html'
+keywords: 'key manager,update key manager,security key manager,external key manager,onboard key manager,synchronize keys'
 summary: 'Update key managers'
 ---
 
 = Update key managers
 :imagesdir: ./media/
 
+[.lead]
+Updates key managers to modify their configurations, such as synchronizing the Onboard Key Manager or adjusting certificate settings for external key managers. This is useful for maintaining secure and consistent key management across your cluster.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/key-managers/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates a key manager.
 NOTE: When validate_certificates is set, the API returns a 202 status code for successful creation of the job, otherwise an error is returned.

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_application_consistency_group_snapshots.html'
+keywords: 'application consistency,snapshot management,crash consistent,snapshot restore,consistency group'
 summary: 'Manage application consistency group snapshots'
 ---
 
 = Manage application consistency group snapshots
 :imagesdir: ./media/
 
-
+[.lead]
+Consistency group snapshot endpoints facilitate the creation, management, and restoration of snapshots for application consistency groups. Use these APIs to perform on-demand or scheduled snapshot operations, supporting crash or application consistency types, with scheduled snapshots defaulting to crash consistent. Integrating with the SnapCenter Backup Management suite is recommended to coordinate snapshots with host applications effectively.
 
 == Overview
 

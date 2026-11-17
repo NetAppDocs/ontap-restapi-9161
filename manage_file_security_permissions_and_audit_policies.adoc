@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_file_security_permissions_and_audit_policies.html'
+keywords: 'ntfs security, audit policies, access control, file permissions, storage-level guard, discretionary list'
 summary: 'Manage file security permissions and audit policies'
 ---
 
 = Manage file security permissions and audit policies
 :imagesdir: ./media/
 
-
+[.lead]
+Manage NTFS file security and audit policies directly on files or directories, bypassing the need for a client. Simplify the configuration of NTFS access control lists (ACLs) by combining multiple steps into one, using minimal and mandatory parameters. Configure Storage-Level Access Guard (SLAG) ACLs on volumes or qtrees to ensure that only storage administrators can modify storage-level security settings.
 
 == Overview
 

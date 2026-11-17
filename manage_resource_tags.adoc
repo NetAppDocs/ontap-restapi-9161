@@ -3,17 +3,19 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_resource_tags.html'
+keywords: 'resource tags,tag management,storage volumes,environment tagging,team tagging'
 summary: 'Manage resource tags'
 ---
 
 = Manage resource tags
 :imagesdir: ./media/
 
-
+[.lead]
+Utilize the manage resource tags endpoints to list and organize resources based on specific tag values. Create and delete tags on existing resources to streamline tracking and categorization processes.
 
 = Overview
 
-You can use this endpoint to list all of the resources in the API that have been tagged with a particular tag value and to create new tags on existing resources. Each resource has a limit of 64 tags that cannot be exceeded. See the section labelled <<Tagging_Resources_for_Tracking_Purposes,Tagging Resources for Tracking Purposes>> to find out more information about how to tag a resource.
+You can use this endpoint to list all of the resources in the API that have been tagged with a particular tag value and to create new tags on existing resources. Each resource has a limit of 64 tags that cannot be exceeded. See the section labelled link:getting_started_with_the_ontap_rest_api.html#Tagging_Resources_for_Tracking_Purposes[Tagging Resources for Tracking Purposes] to find out more information about how to tag a resource.
 
 == Examples
 

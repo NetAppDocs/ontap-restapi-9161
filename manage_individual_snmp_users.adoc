@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_individual_snmp_users.html'
+keywords: 'snmp user management,snmp user retrieval,snmp user update,snmp user deletion,snmp community'
 summary: 'Manage individual SNMP users'
 ---
 
 = Manage individual SNMP users
 :imagesdir: ./media/
 
-
+[.lead]
+Define, retrieve, update, and delete individual SNMP users to manage user-specific settings and configurations.
 
 == Overview
 

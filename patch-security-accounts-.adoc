@@ -3,17 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-accounts-.html'
+keywords: 'account update,user account,lock unlock,role update,password update,mfa support'
 summary: 'Update a user account'
 ---
 
 = Update a user account
 :imagesdir: ./media/
 
+[.lead]
+Updates a user account by modifying its role, applications, or password, or by locking or unlocking the account as needed. This enables you to manage account access and permissions effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/accounts/{owner.uuid}/{name}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates a user account. Locks or unlocks a user account and/or updates the role, applications, and/or password for the user account.
+ONTAP 9.6
+
+== Usage notes
+
+Locks or unlocks a user account and/or updates the role, applications, and/or password for the user account.
 
 == Required parameters
 

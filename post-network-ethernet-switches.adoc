@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-network-ethernet-switches.html'
+keywords: 'ethernet switch,create switch,switch model,switch monitoring,network cluster,snmp configuration'
 summary: 'Create an Ethernet switch'
 ---
 
 = Create an Ethernet switch
 :imagesdir: ./media/
 
+[.lead]
+Creates an Ethernet switch to integrate it into your network infrastructure. This action is essential for managing and configuring network connectivity in your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/network/ethernet/switches`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Creates an ethernet switch.
+ONTAP 9.11
 
 == Required properties
 

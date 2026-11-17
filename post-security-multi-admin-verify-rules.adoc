@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-multi-admin-verify-rules.html'
+keywords: 'multi-admin verify,multi-admin rule,security rules,rule creation,admin verification'
 summary: 'Create a multi-admin-verify rule'
 ---
 
 = Create a multi-admin-verify rule
 :imagesdir: ./media/
 
+[.lead]
+Creates a multi-admin-verify rule to establish policies that require multiple administrators to verify certain actions. Use this rule to enhance security and ensure compliance within your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/multi-admin-verify/rules`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Creates a multi-admin-verify rule.
-
+ONTAP 9.11
 
 == Parameters
 

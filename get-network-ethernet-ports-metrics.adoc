@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ethernet-ports-metrics.html'
+keywords: 'ethernet ports,performance metrics,historical data,network throughput,port identifier'
 summary: 'Retrieve historical port performance metrics'
 ---
 
 = Retrieve historical port performance metrics
 :imagesdir: ./media/
 
+[.lead]
+Retrieves historical performance metrics for a port to analyze its past activity and performance trends.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ethernet/ports/{uuid}/metrics`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Retrieves historical performance metrics for a port.
-
+ONTAP 9.8
 
 == Parameters
 

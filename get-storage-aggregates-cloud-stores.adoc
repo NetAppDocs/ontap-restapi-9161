@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-aggregates-cloud-stores.html'
+keywords: 'aggregate cloud stores,aggregate uuid,cloud stores collection,storage aggregate,cloud store availability'
 summary: 'Retrieve a collection of cloud stores used by an aggregate'
 ---
 
 = Retrieve a collection of cloud stores used by an aggregate
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a collection of cloud stores associated with an aggregate to review their configurations and usage.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/aggregates/{aggregate.uuid}/cloud-stores`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the collection of cloud stores used by an aggregate.
 

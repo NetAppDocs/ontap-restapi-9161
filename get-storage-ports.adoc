@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-ports.html'
+keywords: 'storage ports,storage port collection,wwpn,firmware version,cable serial number,node uuid'
 summary: 'Retrieve storage ports'
 ---
 
 = Retrieve storage ports
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a collection of storage ports to view available port configurations and their statuses. This can help you manage and optimize storage connectivity in your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/ports`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of storage ports.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_oauth_2_0_configurations.html'
+keywords: 'oauth configuration,cluster security,oauth clients,create oauth,view oauth'
 summary: 'View and create OAuth 2.0 configurations'
 ---
 
 = View and create OAuth 2.0 configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and configure OAuth 2.0 settings within your cluster using this API. Utilize the POST request to establish a new OAuth 2.0 configuration when none exists.
 
 :doctype: book
 

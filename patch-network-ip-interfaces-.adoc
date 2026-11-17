@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-network-ip-interfaces-.html'
+keywords: 'ip interface,network interface,interface update,interface modify,interface rename'
 summary: 'Update an IP interface'
 ---
 
 = Update an IP interface
 :imagesdir: ./media/
 
+[.lead]
+Updates the configuration of an IP interface, adjusting network settings as needed. This is useful when modifying interface properties to meet specific network requirements.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/network/ip/interfaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates an IP interface.
 

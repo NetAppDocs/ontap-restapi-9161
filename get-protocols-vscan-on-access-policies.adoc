@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-vscan-on-access-policies.html'
+keywords: 'vscan policy,access policy,scan extensions,file size filter,svm uuid,file path exclusion'
 summary: 'Retrieve a Vscan On-Access policy'
 ---
 
 = Retrieve a Vscan On-Access policy
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the Vscan On-Access policy to examine how files are scanned for viruses during access in your storage environment. This helps you understand current security configurations and make necessary adjustments if needed.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/on-access-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the Vscan On-Access policy.
+ONTAP 9.6
 
 == Related ONTAP commands
 

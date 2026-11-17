@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-application-applications-.html'
+keywords: 'delete application,associated data,volume deletion,initiator group removal,nfs export policy,cifs share removal'
 summary: 'Delete an application and all associated data'
 ---
 
 = Delete an application and all associated data
 :imagesdir: ./media/
 
+[.lead]
+Deletes an application and all of its associated data, including volumes, LUNs, NFS export policies, CIFS shares, and initiator groups that are specific to the application.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/application/applications/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes an application and all associated data.
 

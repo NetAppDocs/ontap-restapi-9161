@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nfs-services.html'
+keywords: 'nfs configuration,svm creation,nfs service,nfs protocol,vserver nfs'
 summary: 'Create an NFS configuration for an SVM'
 ---
 
 = Create an NFS configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Creates an NFS configuration for an SVM to define how the SVM handles NFS protocols and settings. This process involves specifying or accepting default properties that manage NFS operations and security for the SVM.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nfs/services`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an NFS configuration for an SVM.
+ONTAP 9.6
 
 == Required properties
 

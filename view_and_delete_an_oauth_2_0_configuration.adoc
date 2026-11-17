@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_delete_an_oauth_2_0_configuration.html'
+keywords: 'oauth configuration,cluster security,oauth retrieval,oauth deletion,client secret,remote user claim'
 summary: 'View and delete an OAuth 2.0 configuration'
 ---
 
 = View and delete an OAuth 2.0 configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and delete the OAuth 2.0 configuration to manage authentication settings within your cluster. Use the GET request to view the current configuration and the DELETE request to remove it when necessary.
 
 == Overview
 

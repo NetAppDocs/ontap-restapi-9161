@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_flexcache_volumes.html'
+keywords: 'flexcache volumes, flexcache configuration, flexgroup, flexvol, cross cluster, intra vserver'
 summary: 'Manage FlexCache volumes'
 ---
 
 = Manage FlexCache volumes
 :imagesdir: ./media/
 
-
+[.lead]
+Manage FlexCache volumes to optimize data access through persistent caching of origin volumes. Use these endpoints to configure and maintain FlexCache relationships across Vservers and clusters, supporting fan-out configurations for enhanced performance.
 
 == Overview
 

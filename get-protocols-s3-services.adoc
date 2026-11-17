@@ -3,17 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-s3-services.html'
+keywords: 's3 configuration,s3 server,svm configuration,bucket policy,object store server'
 summary: 'Retrieve the S3 server configuration for all SVMs'
 ---
 
 = Retrieve the S3 server configuration for all SVMs
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the S3 server configuration for all SVMs to understand the current server setup across your storage virtual machines. Use this endpoint to access detailed configuration information, which can include specific S3 bucket policy conditions when requested.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/s3/services`#
 
-*Introduced In:* 9.7
+== Introduced in
 
-Retrieves the S3 server configuration for all SVMs. Note that in order to retrieve S3 bucket policy conditions, 'fields' option should be set to '**'.
+ONTAP 9.7
+
+== Usage notes
+
+Note that in order to retrieve S3 bucket policy conditions, 'fields' option should be set to '**'.
 
 == Expensive properties
 

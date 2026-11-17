@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-application-applications-snapshots-.html'
+keywords: 'delete snapshot,application snapshot,remove snapshot,snapshot deletion,application data,application uuid'
 summary: 'Delete an application snapshot'
 ---
 
 = Delete an application snapshot
 :imagesdir: ./media/
 
+[.lead]
+Deletes a snapshot of an application, removing the saved state from your system when it's no longer needed.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/application/applications/{application.uuid}/snapshots/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Delete a snapshot of an application
 

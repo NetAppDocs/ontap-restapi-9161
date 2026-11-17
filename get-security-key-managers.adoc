@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-managers.html'
+keywords: 'key managers,retrieve key managers,cluster availability,node states,key manager status,message code'
 summary: 'Retrieve key managers'
 ---
 
 = Retrieve key managers
 :imagesdir: ./media/
 
+[.lead]
+Retrieves key managers to obtain information about the configured key management systems. This information helps you manage and verify the security settings related to your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-managers`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves key managers.
+ONTAP 9.6
 
 == Expensive properties
 

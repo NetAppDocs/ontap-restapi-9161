@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snapshot_policies.html'
+keywords: 'snapshot management,snapshot policies,snapshot retention,snapshot schedule,ontap snapshot'
 summary: 'Manage snapshot policies'
 ---
 
 = Manage snapshot policies
 :imagesdir: ./media/
 
-
+[.lead]
+Manage snapshot policies to automate and control the creation and retention of snapshots on storage objects. Utilize these endpoints to create, retrieve, update, and delete snapshot policies, each with customizable schedules, prefixes, and retention settings.
 
 == Overview
 

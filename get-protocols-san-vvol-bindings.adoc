@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-vvol-bindings.html'
+keywords: 'vvol bindings,san protocols,svm filter,protocol endpoint,vvol uuid'
 summary: 'Retrieve vVol bindings'
 ---
 
 = Retrieve vVol bindings
 :imagesdir: ./media/
 
+[.lead]
+Retrieves vVol bindings to view the associations between vVols and their respective storage resources. This helps you manage and monitor virtual volume configurations effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/vvol-bindings`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves vVol bindings.
+ONTAP 9.10
 
 == Related ONTAP commands
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_kerberos_realms.html'
+keywords: 'kerberos realms,kerberos management,svm kerberos,realm retrieval,realm creation,realm deletion'
 summary: 'Manage Kerberos realms'
 ---
 
 = Manage Kerberos realms
 :imagesdir: ./media/
 
-
+[.lead]
+Manage Kerberos realms to configure and control authentication processes within your storage virtual machines (SVMs). Use these endpoints to retrieve, create, update, and delete Kerberos realm configurations as needed for secure communication across your network.
 
 == Examples
 

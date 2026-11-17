@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-snapshot-policies.html'
+keywords: 'snapshot policies,retrieve snapshot,snapshot policy collection,svm filter,retention period'
 summary: 'Retrieve snapshot policies'
 ---
 
 = Retrieve snapshot policies
 :imagesdir: ./media/
 
+[.lead]
+Retrieves snapshot policies to view and manage the collection of policies that govern snapshot operations. Use this endpoint to ensure your snapshot policies align with your data protection strategy.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/snapshot-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of snapshot policies.
 

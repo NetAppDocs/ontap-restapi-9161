@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups-snapshots-.html'
+keywords: 'consistency group,snapshot details,missing volumes,restore size,reclaimable space'
 summary: 'Retrieve a consistency group snapshot'
 ---
 
 = Retrieve a consistency group snapshot
 :imagesdir: ./media/
 
+[.lead]
+Retrieves details of a specific snapshot for a consistency group, giving you insights into the snapshot's properties and status. Use this endpoint to examine the snapshot information for backup or consistency verification tasks.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/snapshots/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves details of a specific snapshot for a consistency group.
+ONTAP 9.10
 
 == Expensive properties
 

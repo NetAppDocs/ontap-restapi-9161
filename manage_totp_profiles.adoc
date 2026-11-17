@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_totp_profiles.html'
+keywords: 'totp profiles,user accounts,owner uuid,svm uuid,security login'
 summary: 'Manage TOTP profiles'
 ---
 
 = Manage TOTP profiles
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage TOTP profiles for user accounts using these endpoints. Specify the owner UUID and account user name to retrieve, modify, or delete TOTP profiles associated with user accounts in ONTAP environments.
 
 == Overview
 

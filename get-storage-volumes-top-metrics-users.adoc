@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-volumes-top-metrics-users.html'
+keywords: 'io activity,top users,volume metrics,read write,throughput iops,ontap storage'
 summary: 'Retrieve users with the most I/O activity'
 ---
 
 = Retrieve users with the most I/O activity
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a list of users with the most I/O activity to identify high-demand users in your system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/volumes/{volume.uuid}/top-metrics/users`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves a list of users with the most I/O activity.
+ONTAP 9.10
 
 == Platform Specifics
 

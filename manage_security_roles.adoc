@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security_roles.html'
+keywords: 'role based access control,security roles,privilege tuples,access level,cluster scope'
 summary: 'Manage security roles'
 ---
 
 = Manage security roles
 :imagesdir: ./media/
 
-
+[.lead]
+Explore security roles and manage access privileges with ONTAP's Role Based Access Control (RBAC). These endpoints define permissions for user accounts, specifying API access levels and commands to ensure secure and controlled operations within your environment.
 
 == Overview
 

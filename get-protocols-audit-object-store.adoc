@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-audit-object-store.html'
+keywords: 's3 audit,object store audit,audit configuration,s3 audit log,log retention,log rotation'
 summary: 'Retrieve an S3 audit configurations'
 ---
 
 = Retrieve an S3 audit configurations
 :imagesdir: ./media/
 
+[.lead]
+Retrieves S3 audit configurations to review the audit settings for object store servers within your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/audit/{svm.uuid}/object-store`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves S3 audit configurations.
+ONTAP 9.10
 
 == Related ONTAP commands
 

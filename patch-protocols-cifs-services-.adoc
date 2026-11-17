@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-cifs-services-.html'
+keywords: 'cifs configuration, cifs server, ad domain, netbios aliases, vserver options, server modify'
 summary: 'Update CIFS mandatory and optional parameters'
 ---
 
 = Update CIFS mandatory and optional parameters
 :imagesdir: ./media/
 
+[.lead]
+Updates the mandatory and optional parameters of the CIFS configuration to adjust the settings of your CIFS server. Use this endpoint when you need to rename the CIFS server or change its domain properties.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/cifs/services/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates both the mandatory and optional parameters of the CIFS configuration. Ensure the CIFS server is administratively disabled when renaming the CIFS server or modifying the _ad_domain_ properties.
 

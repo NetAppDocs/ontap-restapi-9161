@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'restore_source_directory.html'
+keywords: 'restore directory,volume snapshot,data copy,active file system,directory entries'
 summary: 'Restore source directory'
 ---
 
 = Restore source directory
 :imagesdir: ./media/
 
-
+[.lead]
+Restore a directory from a volume snapshot using this API without needing a data copy. The restored directory retains the original directory entries, with new inodes created in the Active File System that match the attributes in the source snapshot.
 
 == Overview
 

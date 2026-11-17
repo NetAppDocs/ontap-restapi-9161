@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_unix_group_users.html'
+keywords: 'unix users,svm unix group,unix group management,unix user retrieval,unix user deletion'
 summary: 'Manage UNIX group users'
 ---
 
 = Manage UNIX group users
 :imagesdir: ./media/
 
-
+[.lead]
+Access UNIX group user management endpoints to retrieve, add, or delete users within an SVM's UNIX group. Utilize these endpoints to efficiently manage user configurations in your network environment.
 
 == Overview
 

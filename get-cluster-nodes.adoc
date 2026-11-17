@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-nodes.html'
+keywords: 'cluster nodes,retrieve nodes,cluster management,node statistics,node metrics,system node'
 summary: 'Retrieve the nodes in a cluster'
 ---
 
 = Retrieve the nodes in a cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the nodes in a cluster to view the current configuration and status of each node. This information helps you manage and monitor the cluster effectively.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/nodes`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the nodes in the cluster.
+ONTAP 9.6
 
 == Expensive properties
 

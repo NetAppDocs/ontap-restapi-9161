@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-applications-components-snapshots-restore.html'
+keywords: 'restore snapshot,application component,maxdata template,component snapshot,snapshot restore'
 summary: 'Restore an application component snapshot'
 ---
 
 = Restore an application component snapshot
 :imagesdir: ./media/
 
+[.lead]
+Restores a snapshot of an application component to revert it to a previous state. This operation is useful when you need to recover a component of a Maxdata template application to an earlier configuration.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/applications/{application.uuid}/components/{component.uuid}/snapshots/{uuid}/restore`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Restore a snapshot of an application component.
 

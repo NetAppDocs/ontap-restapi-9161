@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-flexcache-origins.html'
+keywords: 'flexcache origin,cluster flexcache,flexcache size,flexcache state,svm filter,space guarantee'
 summary: 'Retrieve the origin of a FlexCache in the cluster'
 ---
 
 = Retrieve the origin of a FlexCache in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the origin of a FlexCache within the cluster to understand its source configuration and ensure proper management of caching resources.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/flexcache/origins`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves origin of FlexCache in the cluster.
 

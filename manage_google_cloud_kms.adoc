@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_google_cloud_kms.html'
+keywords: 'google cloud kms, key management, encryption keys, svm scope, privileged account, kmip server'
 summary: 'Manage Google Cloud KMS'
 ---
 
 = Manage Google Cloud KMS
 :imagesdir: ./media/
 
-
+[.lead]
+Use the Google Cloud Key Management Services endpoints to securely protect encryption keys in your ONTAP environment. These endpoints help manage configurations for integrating Google Cloud KMS, ensuring encryption keys remain secure and accessible.
 
 == Overview
 

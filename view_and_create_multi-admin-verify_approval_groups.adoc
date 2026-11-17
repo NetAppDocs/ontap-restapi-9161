@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_multi-admin-verify_approval_groups.html'
+keywords: 'multi-admin-verify,approval groups,ontap users,cluster server,approval retrieval'
 summary: 'View and create multi-admin-verify approval groups'
 ---
 
 = View and create multi-admin-verify approval groups
 :imagesdir: ./media/
 
-
+[.lead]
+Define and manage multi-admin-verify approval groups to establish user-based verification processes within your cluster server context. Associate these groups with specific rules or global settings to facilitate approval retrieval for associated requests.
 
 == Overview
 

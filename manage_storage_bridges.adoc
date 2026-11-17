@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_bridges.html'
+keywords: 'storage bridges,manage storage,ontap rest,bridge information,cluster bridges'
 summary: 'Manage storage bridges'
 ---
 
 = Manage storage bridges
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage storage bridge information within your cluster using these endpoints. Access details about each bridge, including its state, configuration, and connectivity, to ensure optimal performance and monitoring.
 
 == Retrieving storage bridge information
 

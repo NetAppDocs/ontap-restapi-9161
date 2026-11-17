@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_licensing.html'
+keywords: 'cluster licensing,feature compliance,license formats,package state,license scope'
 summary: 'Manage cluster licensing'
 ---
 
 = Manage cluster licensing
 :imagesdir: ./media/
 
-
+[.lead]
+Manage cluster licensing by tailoring system features to meet specific organizational needs. This interface organizes licenses according to their supported features and compliance state, allowing you to identify both licensed and unlicensed packages within your cluster. Use these endpoints to purchase, install, and verify licenses, ensuring feature availability and compliance across your environment.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_active_directory_domain_controllers.html'
+keywords: 'active directory,domain controller,preferred configuration,svm settings,server ip'
 summary: 'Manage Active Directory domain controllers'
 ---
 
 = Manage Active Directory domain controllers
 :imagesdir: ./media/
 
-
+[.lead]
+Manage Active Directory domain controllers to configure the preferred DC settings of an SVM. Retrieve, create, and delete DC configurations to ensure optimal domain controller interactions within your network environment.
 
 == Overview
 

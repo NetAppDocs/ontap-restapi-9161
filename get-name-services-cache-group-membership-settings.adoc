@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-cache-group-membership-settings.html'
+keywords: 'group membership,cache settings,vserver services,name service settings,record limit,order results'
 summary: 'Retrieve group membership cache settings'
 ---
 
 = Retrieve group membership cache settings
 :imagesdir: ./media/
 
+[.lead]
+Obtains the current settings for the group membership cache, which helps manage how group membership information is cached for improved lookup efficiency.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/group-membership/settings`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves group-membership cache settings.
 

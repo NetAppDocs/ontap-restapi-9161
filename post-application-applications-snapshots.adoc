@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-applications-snapshots.html'
+keywords: 'snapshot creation,application snapshot,application consistency,crash consistency,snapshot name'
 summary: 'Create an application snapshot'
 ---
 
 = Create an application snapshot
 :imagesdir: ./media/
 
+[.lead]
+Creates a snapshot of an application, capturing its current state for backup or recovery purposes. Use this operation to ensure data consistency and restore capabilities for your applications.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/applications/{application.uuid}/snapshots`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a snapshot of the application.
+ONTAP 9.6
 
 == Required properties
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_application_snapshots.html'
+keywords: 'application snapshots,snapshot creation,snapshot restoration,crash consistent,application consistent,snapcenter backup'
 summary: 'Manage application snapshots'
 ---
 
 = Manage application snapshots
 :imagesdir: ./media/
 
-
+[.lead]
+Manage application snapshots across all member storage elements, facilitating creation and restoration as needed or on a scheduled basis. Use these endpoints to flag snapshots for consistency tracking, distinguishing between application consistent and crash consistent types. For optimal integration, consider using the SnapCenter Backup Management suite alongside these APIs.
 
 == Overview
 

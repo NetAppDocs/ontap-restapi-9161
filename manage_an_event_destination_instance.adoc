@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_an_event_destination_instance.html'
+keywords: 'event destination,connectivity test,snmp destination,destination instance,system defined'
 summary: 'Manage an event destination instance'
 ---
 
 = Manage an event destination instance
 :imagesdir: ./media/
 
-
+[.lead]
+Manage individual event destination instances to customize where events are sent and how they are handled. While certain attributes like the destination type are fixed upon creation, you can update other details such as contact information. Default system-defined destinations are immutable, ensuring consistent event routing.
 
 == Overview
 
@@ -17,7 +19,7 @@ Manages a specific instance of a destination. There are limits to the informatio
 
 NOTE: The system defines default destinations that cannot be removed or modified. These destinations are specified by setting the "system_defined" field to "true".
 
-See the documentation for <</docs/support/support_ems_destinations,/support/ems/destinations>> for details on the various properties in a destination.
+See the documentation for link:getting_started_with_the_ontap_rest_api.html#/docs/support/support_ems_destinations[/support/ems/destinations] for details on the various properties in a destination.
 
 == Connectivity Test
 

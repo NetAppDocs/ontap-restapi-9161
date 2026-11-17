@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-audit-object-store.html'
+keywords: 's3 audit,svm configuration,object store,update audit,ontap audit'
 summary: 'Update an S3 audit configuration for an SVM'
 ---
 
 = Update an S3 audit configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Updates an S3 audit configuration for a Storage Virtual Machine (SVM) to modify audit settings related to object storage operations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/audit/{svm.uuid}/object-store`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Updates an S3 audit configuration for an SVM.
 

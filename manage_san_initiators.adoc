@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_san_initiators.html'
+keywords: 'san initiator,initiator group,fibre channel,iscsi identifier,svm scoped'
 summary: 'Manage SAN initiators'
 ---
 
 = Manage SAN initiators
 :imagesdir: ./media/
 
-
+[.lead]
+Use the initiator endpoints to view properties of SAN initiators such as Fibre Channel WWPNs, iSCSI IQNs, and iSCSI EUIs. These endpoints help you monitor and manage access control configurations within your storage virtual machines (SVMs).
 
 == Overview
 

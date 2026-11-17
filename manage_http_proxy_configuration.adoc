@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_http_proxy_configuration.html'
+keywords: 'http proxy configuration,http proxy retrieve,http proxy create,http proxy update,http proxy delete,svm cluster ipspace'
 summary: 'Manage HTTP proxy configuration'
 ---
 
 = Manage HTTP proxy configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage HTTP proxy settings for SVMs and Cluster IPspaces using these endpoints. Retrieve, create, update, or delete proxy configurations to control network traffic and authentication protocols within your ONTAP environment.
 
 == Overview
 

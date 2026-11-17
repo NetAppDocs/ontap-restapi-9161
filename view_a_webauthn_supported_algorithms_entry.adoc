@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_a_webauthn_supported_algorithms_entry.html'
+keywords: 'webauthn algorithms,owner uuid,algorithm name,supported algorithms,webauthn entry'
 summary: 'View a WebAuthn supported algorithms entry'
 ---
 
 = View a WebAuthn supported algorithms entry
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve details about a specific WebAuthn supported algorithms entry using this endpoint. Provide the owner UUID and algorithm name to access the desired entry within your cluster or SVM.
 
 == Overview
 

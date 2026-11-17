@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_core_dumps.html'
+keywords: 'core dump,cluster management,node management,kernel dump,delete core'
 summary: 'Manage core dumps'
 ---
 
 = Manage core dumps
 :imagesdir: ./media/
 
-
+[.lead]
+Access core dump information and manage their lifecycle on your cluster using the core dump APIs. Retrieve lists of core dumps, access specific data, or delete unwanted dumps, even if they are currently being saved.
 
 == Overview
 

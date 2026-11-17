@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_lock_details.html'
+keywords: 'file locks,concurrent access,synchronization mechanism,lock information,query fields'
 summary: 'View lock details'
 ---
 
 = View lock details
 :imagesdir: ./media/
 
-
+[.lead]
+Discover lock details through endpoints that manage synchronization mechanisms for file access. You can query, view, and modify locks across various fields to ensure optimal data consistency and access control.
 
 == Overview
 

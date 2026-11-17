@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_duo_groups.html'
+keywords: 'duo groups,duo authentication,group configuration,svm scoped,cluster scoped'
 summary: 'View and create Duo groups'
 ---
 
 = View and create Duo groups
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage Duo authentication groups to enhance security within your environment. Use these endpoints to create and retrieve Duo groups associated with either cluster or SVM scopes.
 
 == Overview
 

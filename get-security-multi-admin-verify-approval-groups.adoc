@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-multi-admin-verify-approval-groups.html'
+keywords: 'multi-admin verify,approval groups,filter name,filter approvers,filter email,owner uuid'
 summary: 'Retrieve multi-admin-verify approval groups'
 ---
 
 = Retrieve multi-admin-verify approval groups
 :imagesdir: ./media/
 
+[.lead]
+Retrieves multi-admin-verify approval groups to review existing approval configurations. This helps you ensure that the necessary administrative actions have been verified and approved as needed.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/multi-admin-verify/approval-groups`#
 
-*Introduced In:* 9.11
+== Introduced in
 
-Retrieves multi-admin-verify approval groups.
-
+ONTAP 9.11
 
 == Parameters
 
